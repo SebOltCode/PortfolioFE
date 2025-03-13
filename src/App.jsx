@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="w-full min-h-screen overflow-x-hidden relative">
       <Navbar />
-      <main className="w-full pt-16">
+      <div className="absolute inset-0 bg-black opacity-40 z-0 pointer-events-none"></div>
+      <main className="w-full pt-16 relative z-10">
         <Home />
         <Experience />
         <Projects />

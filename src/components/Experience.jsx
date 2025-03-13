@@ -3,8 +3,6 @@ import React from "react";
 const Experience = () => {
   return (
     <section id="experience" className="relative text-white py-16 min-h-screen">
-      <div className="absolute inset-0 bg-black opacity-60 z-0 pointer-events-none"></div>
-
       <div className="max-w-6xl mx-auto px-6 pb-16 relative z-10">
         <p className="text-teal-500 text-center uppercase font-semibold mb-2">
           What I Do
@@ -193,72 +191,145 @@ const Experience = () => {
             Here are some of the key technologies and practices I use:
           </p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 mb-6">
-            <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-              <img
-                src="/assets/skills-icons/git.png"
-                alt="Git"
-                className="h-12 mx-auto mb-2"
-                loading="lazy"
-              />
-              <p className="text-sm">Git</p>
+          {/* Mobile layout - hide on large screens */}
+          <div className="block lg:hidden">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 mb-6">
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/git.png"
+                  alt="Git"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Git</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/github.png"
+                  alt="GitHub"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">GitHub</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/slack.png"
+                  alt="Slack"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Slack</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/bash.svg"
+                  alt="Bash"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Bash</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/linux.png"
+                  alt="linux"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Linux</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/winserver.png"
+                  alt="Windows Server"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Windows Server</p>
+              </div>
             </div>
-            <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-              <img
-                src="/assets/skills-icons/github.png"
-                alt="GitHub"
-                className="h-12 mx-auto mb-2"
-                loading="lazy"
-              />
-              <p className="text-sm">GitHub</p>
-            </div>
-            <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-              <img
-                src="/assets/skills-icons/slack.png"
-                alt="Slack"
-                className="h-12 mx-auto mb-2"
-                loading="lazy"
-              />
-              <p className="text-sm">Slack</p>
-            </div>
-            <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-              <img
-                src="/assets/skills-icons/bash.svg"
-                alt="Bash"
-                className="h-12 mx-auto mb-2"
-                loading="lazy"
-              />
-              <p className="text-sm">Bash</p>
-            </div>
-            <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-              <img
-                src="/assets/skills-icons/linux.png"
-                alt="linux"
-                className="h-12 mx-auto mb-2"
-                loading="lazy"
-              />
-              <p className="text-sm">Linux</p>
+            <div className="flex justify-center">
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg w-40">
+                <img
+                  src="/assets/skills-icons/raspberrypi.png"
+                  alt="Raspberry Pi"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Raspberry Pi</p>
+              </div>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-6 max-w-md mx-auto">
-            <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-              <img
-                src="/assets/skills-icons/winserver.png"
-                alt="Windows Server"
-                className="h-12 mx-auto mb-2"
-                loading="lazy"
-              />
-              <p className="text-sm">Windows Server</p>
+          {/* Desktop layout - hide on small screens */}
+          <div className="hidden lg:block">
+            <div className="grid grid-cols-5 gap-6 mb-6">
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/git.png"
+                  alt="Git"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Git</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/github.png"
+                  alt="GitHub"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">GitHub</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/slack.png"
+                  alt="Slack"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Slack</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/bash.svg"
+                  alt="Bash"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Bash</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/linux.png"
+                  alt="linux"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Linux</p>
+              </div>
             </div>
-            <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-              <img
-                src="/assets/skills-icons/raspberrypi.png"
-                alt="Raspberry Pi"
-                className="h-12 mx-auto mb-2"
-                loading="lazy"
-              />
-              <p className="text-sm">Raspberry Pi</p>
+            <div className="flex justify-center space-x-6">
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/winserver.png"
+                  alt="Windows Server"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Windows Server</p>
+              </div>
+              <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
+                <img
+                  src="/assets/skills-icons/raspberrypi.png"
+                  alt="Raspberry Pi"
+                  className="h-12 mx-auto mb-2"
+                  loading="lazy"
+                />
+                <p className="text-sm">Raspberry Pi</p>
+              </div>
             </div>
           </div>
         </div>

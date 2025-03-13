@@ -26,12 +26,10 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="relative min-h-screen flex flex-col items-center justify-center text-center overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-center text-center overflow-hidden mb-16 sm:mb-24 lg:mb-32"
     >
-      <div className="absolute inset-0 bg-black opacity-60 z-0 pointer-events-none"></div>
-
       <div className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
-        <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-white">
+        <h1 className="text-3xl md:text-7xl font-extrabold mb-4 text-white">
           My Projects <br />
         </h1>
         <p className="text-gray-300 text-lg md:text-xl mx-auto">
@@ -44,45 +42,6 @@ const Projects = () => {
           reflects my ability to apply new concepts, work under time
           constraints, and continuously improve my skills.
         </p>
-        <div className="mt-8 flex flex-col sm:flex-row justify-center sm:space-x-4 space-y-4 sm:space-y-0">
-          <a
-            href="#home"
-            className="bg-teal-500 text-white font-medium py-3 px-6 rounded hover:bg-teal-600 transition w-full sm:w-auto active:bg-teal-700"
-          >
-            Home
-          </a>
-          <a
-            href="#about"
-            className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
-          >
-            Contact
-          </a>
-          <a
-            href="#experience"
-            className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
-          >
-            Experience
-          </a>
-          <a
-            href="#projects"
-            className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
-          >
-            Projects
-          </a>
-          <a
-            href="#about"
-            className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
-          >
-            About
-          </a>
-
-          <a
-            href="#contact"
-            className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
-          >
-            Contact
-          </a>
-        </div>
 
         <div className="marquee-container w-full mt-12 overflow-visible">
           <div className="marquee overflow-visible">
