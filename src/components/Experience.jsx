@@ -191,7 +191,6 @@ const Experience = () => {
             Here are some of the key technologies and practices I use:
           </p>
 
-          {/* Mobile layout - hide on large screens */}
           <div className="block lg:hidden">
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 mb-6">
               <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
@@ -262,7 +261,6 @@ const Experience = () => {
             </div>
           </div>
 
-          {/* Desktop layout - hide on small screens */}
           <div className="hidden lg:block">
             <div className="grid grid-cols-5 gap-6 mb-6">
               <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
