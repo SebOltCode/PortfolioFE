@@ -88,37 +88,37 @@ const Projects = () => {
           <div className="marquee overflow-visible">
             <div className="marquee-group gap-16 sm:gap-20 md:gap-24 overflow-visible">
               <img
-                src="/src/assets/projects-icons/inclusivetripfrontend.webp"
+                src="/assets/projects-icons/inclusivetripfrontend.webp"
                 alt="Inclusive Trip Frontend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivetrip")}
               />
               <img
-                src="/src/assets/projects-icons/inclusivebackend.webp"
+                src="/assets/projects-icons/inclusivebackend.webp"
                 alt="Inclusive Trip Backend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivebackend")}
               />
               <img
-                src="/src/assets/projects-icons/pokefront.png"
+                src="/assets/projects-icons/pokefront.png"
                 alt="Pokemon Game Frontend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokefront")}
               />
               <img
-                src="/src/assets/projects-icons/pokemonbackend.png"
+                src="/assets/projects-icons/pokemonbackend.png"
                 alt="Pokemon Game Backend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokemonbackend")}
               />
               <img
-                src="/src/assets/projects-icons/e-commerceapi.webp"
+                src="/assets/projects-icons/e-commerceapi.webp"
                 alt="E-Commerce API"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("ecommerce")}
               />
               <img
-                src="/src/assets/projects-icons/moviediary.png"
+                src="/assets/projects-icons/moviediary.png"
                 alt="Moviediary"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("moviediary")}
@@ -127,37 +127,37 @@ const Projects = () => {
 
             <div className="marquee-group gap-16 sm:gap-20 md:gap-24 overflow-visible">
               <img
-                src="/src/assets/projects-icons/inclusivetripfrontend.webp"
+                src="/assets/projects-icons/inclusivetripfrontend.webp"
                 alt="Inclusive Trip Frontend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivetrip")}
               />
               <img
-                src="/src/assets/projects-icons/inclusivebackend.webp"
+                src="/assets/projects-icons/inclusivebackend.webp"
                 alt="Inclusive Trip Backend"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivebackend")}
               />
               <img
-                src="/src/assets/projects-icons/pokefront.png"
+                src="/assets/projects-icons/pokefront.png"
                 alt="Pokemon Game Frontend"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokefront")}
               />
               <img
-                src="/src/assets/projects-icons/pokemonbackend.png"
+                src="/assets/projects-icons/pokemonbackend.png"
                 alt="Pokemon Game Backend"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokemonbackend")}
               />
               <img
-                src="/src/assets/projects-icons/e-commerceapi.webp"
+                src="/assets/projects-icons/e-commerceapi.webp"
                 alt="E-Commerce API"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("ecommerce")}
               />
               <img
-                src="/src/assets/projects-icons/moviediary.png"
+                src="/assets/projects-icons/moviediary.png"
                 alt="Moviediary"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("moviediary")}

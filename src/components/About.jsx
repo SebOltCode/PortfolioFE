@@ -3,16 +3,16 @@ import ImageSlideshow from "./ImageSlideshow";
 
 const About = () => {
   const profileImages = [
-    "/src/assets/profilfotos/profilfoto.jpg",
-    "/src/assets/profilfotos/IMG-20250312-WA0004.jpg",
-    "/src/assets/profilfotos/IMG-20250312-WA0007.jpg",
-    "/src/assets/profilfotos/IMG-20250312-WA0010.jpg",
-    "/src/assets/profilfotos/IMG-20250312-WA0011.jpg",
-    "/src/assets/profilfotos/IMG-20250312-WA0012.jpg",
-    "/src/assets/profilfotos/IMG-20250312-WA0014.jpg",
-    "/src/assets/profilfotos/IMG-20250312-WA0019.jpg",
-    "/src/assets/profilfotos/csd.jpg",
-    "/src/assets/profilfotos/IMG-20250312-WA0025.jpg",
+    "/assets/profilfotos/profilfoto.jpg",
+    "/assets/profilfotos/IMG-20250312-WA0004.jpg",
+    "/assets/profilfotos/IMG-20250312-WA0007.jpg",
+    "/assets/profilfotos/IMG-20250312-WA0010.jpg",
+    "/assets/profilfotos/IMG-20250312-WA0011.jpg",
+    "/assets/profilfotos/IMG-20250312-WA0012.jpg",
+    "/assets/profilfotos/IMG-20250312-WA0014.jpg",
+    "/assets/profilfotos/IMG-20250312-WA0019.jpg",
+    "/assets/profilfotos/csd.jpg",
+    "/assets/profilfotos/IMG-20250312-WA0025.jpg",
   ];
 
   return (
