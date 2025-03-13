@@ -47,7 +47,7 @@ const Experience = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/javascript-original.png"
+                src="/assets/skills-icons/javascript-original.png"
                 alt="Java Script"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -56,7 +56,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/react-icon.png"
+                src="/assets/skills-icons/react-icon.png"
                 alt="React"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -65,7 +65,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/html5-original-wordmark.png"
+                src="/assets/skills-icons/html5-original-wordmark.png"
                 alt="html5"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -74,7 +74,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/tailwindcss.png"
+                src="/assets/skills-icons/tailwindcss.png"
                 alt="Tailwind CSS"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -83,7 +83,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/daisyui.png"
+                src="/assets/skills-icons/daisyui.png"
                 alt="DaisyUI"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -92,7 +92,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/wordpress.png"
+                src="/assets/skills-icons/wordpress.png"
                 alt="WordPress"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -101,7 +101,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/nodejs.png"
+                src="/assets/skills-icons/nodejs.png"
                 alt="Node.js"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -110,7 +110,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/express.png"
+                src="/assets/skills-icons/express.png"
                 alt="Express"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -119,7 +119,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/postgresql.png"
+                src="/assets/skills-icons/postgresql.png"
                 alt="PostgreSQL"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -128,7 +128,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/mongodb.png"
+                src="/assets/skills-icons/mongodb.png"
                 alt="MongoDB"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -151,7 +151,7 @@ const Experience = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/figma-icon.png"
+                src="/assets/skills-icons/figma-icon.png"
                 alt="Figma"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -160,7 +160,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/adobe-illustrator.png"
+                src="/assets/skills-icons/adobe-illustrator.png"
                 alt="Adobe Illustrator"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -169,7 +169,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/gimp.jpg"
+                src="/assets/skills-icons/gimp.jpg"
                 alt="GIMP"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -196,7 +196,7 @@ const Experience = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 mb-6">
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/git.png"
+                src="/assets/skills-icons/git.png"
                 alt="Git"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -205,7 +205,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/github.png"
+                src="/assets/skills-icons/github.png"
                 alt="GitHub"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -214,7 +214,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/slack.png"
+                src="/assets/skills-icons/slack.png"
                 alt="Slack"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -223,7 +223,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/bash.svg"
+                src="/assets/skills-icons/bash.svg"
                 alt="Bash"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -232,7 +232,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/linux.png"
+                src="/assets/skills-icons/linux.png"
                 alt="linux"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -244,7 +244,7 @@ const Experience = () => {
           <div className="grid grid-cols-2 gap-6 max-w-md mx-auto">
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/winserver.png"
+                src="/assets/skills-icons/winserver.png"
                 alt="Windows Server"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -253,7 +253,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/raspberrypi.png"
+                src="/assets/skills-icons/raspberrypi.png"
                 alt="Raspberry Pi"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -274,7 +274,7 @@ const Experience = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-md mx-auto">
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/typescript.png"
+                src="/assets/skills-icons/typescript.png"
                 alt="TypeScript"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"
@@ -283,7 +283,7 @@ const Experience = () => {
             </div>
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
               <img
-                src="/src/assets/skills-icons/threejs.png"
+                src="/assets/skills-icons/threejs.png"
                 alt="threejs"
                 className="h-12 mx-auto mb-2"
                 loading="lazy"

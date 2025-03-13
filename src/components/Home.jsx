@@ -10,7 +10,7 @@ const Home = () => {
 
       <div className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         <img
-          src="./src/assets/profilfotos/profilfoto.jpg"
+          src="./assets/profilfotos/profilfoto.jpg"
           className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-4 border-gray-700 shadow-lg mx-auto mb-4"
         />
         <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-white">

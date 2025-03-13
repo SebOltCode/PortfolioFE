@@ -12,7 +12,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./src/assets/linkedin.png"
+              src="./assets/linkedin.png"
               alt="LinkedIn"
               className="h-6 w-6 hover:text-gray-400"
             />
