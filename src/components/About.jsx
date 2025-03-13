@@ -2,7 +2,6 @@ import React from "react";
 import ImageSlideshow from "./ImageSlideshow";
 
 const About = () => {
-  // Liste aller Profilfotos
   const profileImages = [
     "/src/assets/profilfotos/profilfoto.jpg",
     "/src/assets/profilfotos/IMG-20250312-WA0004.jpg",
@@ -17,10 +16,15 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="bg-gray-800 text-white py-16">
-      <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center px-6 md:px-12">
+    <section
+      id="about"
+      className="relative min-h-screen flex flex-col items-center justify-center text-center overflow-hidden"
+    >
+      <div className="absolute inset-0 bg-black opacity-60 z-0 pointer-events-none"></div>
+
+      <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center px-6 md:px-12 relative z-10">
         <div className="md:w-1/2 md:pr-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-gray-300 text-3xl md:text-4xl font-bold mb-4">
             From Wind Turbines to Web Development – My Journey
           </h2>
           <p className="text-gray-300 leading-relaxed">

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import bgImage from "/src/assets/background.jpg";
 
-const Home = () => {
+const Projects = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [currentProject, setCurrentProject] = useState(null);
 
@@ -26,24 +25,12 @@ const Home = () => {
 
   return (
     <section
-      id="home"
+      id="projects"
       className="relative min-h-screen flex flex-col items-center justify-center text-center overflow-hidden"
     >
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          width: "100vw",
-          height: "100vh",
-        }}
-      />
+      <div className="absolute inset-0 bg-black opacity-60 z-0 pointer-events-none"></div>
 
-      <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
-
-      <div className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-white">
           My Projects <br />
         </h1>
@@ -101,37 +88,37 @@ const Home = () => {
           <div className="marquee overflow-visible">
             <div className="marquee-group gap-16 sm:gap-20 md:gap-24 overflow-visible">
               <img
-                src="/src/assets/inclusivetripfrontend.webp"
+                src="/src/assets/projects-icons/inclusivetripfrontend.webp"
                 alt="Inclusive Trip Frontend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivetrip")}
               />
               <img
-                src="/src/assets/inclusivebackend.webp"
+                src="/src/assets/projects-icons/inclusivebackend.webp"
                 alt="Inclusive Trip Backend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivebackend")}
               />
               <img
-                src="/src/assets/pokefront.png"
+                src="/src/assets/projects-icons/pokefront.png"
                 alt="Pokemon Game Frontend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokefront")}
               />
               <img
-                src="/src/assets/pokemonbackend.png"
+                src="/src/assets/projects-icons/pokemonbackend.png"
                 alt="Pokemon Game Backend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokemonbackend")}
               />
               <img
-                src="/src/assets/e-commerceapi.webp"
+                src="/src/assets/projects-icons/e-commerceapi.webp"
                 alt="E-Commerce API"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("ecommerce")}
               />
               <img
-                src="/src/assets/moviediary.png"
+                src="/src/assets/projects-icons/moviediary.png"
                 alt="Moviediary"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("moviediary")}
@@ -140,37 +127,37 @@ const Home = () => {
 
             <div className="marquee-group gap-16 sm:gap-20 md:gap-24 overflow-visible">
               <img
-                src="/src/assets/inclusivetripfrontend.webp"
+                src="/src/assets/projects-icons/inclusivetripfrontend.webp"
                 alt="Inclusive Trip Frontend"
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivetrip")}
               />
               <img
-                src="/src/assets/inclusivebackend.webp"
+                src="/src/assets/projects-icons/inclusivebackend.webp"
                 alt="Inclusive Trip Backend"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivebackend")}
               />
               <img
-                src="/src/assets/pokefront.png"
+                src="/src/assets/projects-icons/pokefront.png"
                 alt="Pokemon Game Frontend"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokefront")}
               />
               <img
-                src="/src/assets/pokemonbackend.png"
+                src="/src/assets/projects-icons/pokemonbackend.png"
                 alt="Pokemon Game Backend"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokemonbackend")}
               />
               <img
-                src="/src/assets/e-commerceapi.webp"
+                src="/src/assets/projects-icons/e-commerceapi.webp"
                 alt="E-Commerce API"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("ecommerce")}
               />
               <img
-                src="/src/assets/moviediary.png"
+                src="/src/assets/projects-icons/moviediary.png"
                 alt="Moviediary"
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("moviediary")}
@@ -180,7 +167,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Modal für Projektlinks */}
       {modalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
           <div
@@ -227,4 +213,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Projects;

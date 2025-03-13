@@ -128,7 +128,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="relative text-white py-16 min-h-screen">
-      <div className="absolute inset-0 bg-gray-900 bg-opacity-80 z-0"></div>
+      <div className="absolute inset-0 bg-black opacity-60 z-0 pointer-events-none"></div>
       <div className="max-w-xl mx-auto px-6 relative z-10">
         <h2 className="text-3xl font-bold text-center mb-8">Let's Connect!</h2>
         <p className="text-gray-300 text-center mb-8">

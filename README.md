@@ -1,12 +1,27 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Willkommen auf meiner Portfolio-Website! Diese Website dient dazu, meine technischen und persönlichen Fähigkeiten zu präsentieren und potenziellen Arbeitgebern einen ersten Eindruck von mir zu vermitteln.
 
-Currently, two official plugins are available:
+## Technologien
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Diese Website wurde mit den folgenden Technologien erstellt:
 
-## Expanding the ESLint configuration
+- **React**: Eine JavaScript-Bibliothek für den Aufbau von Benutzeroberflächen.
+- **Tailwind CSS**: Ein Utility-First CSS-Framework für die schnelle Erstellung von benutzerdefinierten Designs.
+- **AOS (Animate On Scroll)**: Eine Bibliothek für Scroll-Animationen.
+- **Node.js**: Eine JavaScript-Laufzeitumgebung für serverseitige Anwendungen.
+- **Express**: Ein Web-Framework für Node.js.
+- **Nodemailer**: Ein Modul für das einfache Versenden von E-Mails.
+- **reCAPTCHA**: Ein Dienst zur Verhinderung von Spam und Missbrauch.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funktionen
+
+- **Home**: Eine Willkommensseite mit einer kurzen Einführung.
+- **Experience**: Eine Seite, die meine Fähigkeiten und Erfahrungen im Bereich der Webentwicklung zeigt.
+- **Projects**: Eine Seite, die einige meiner Projekte präsentiert.
+- **About**: Eine Seite, die mehr über mich und meinen Werdegang erzählt.
+- **Contact**: Ein Kontaktformular, das es Besuchern ermöglicht, mir Nachrichten zu senden.
+
+## Kontakt
+
+Wenn Sie Fragen haben oder mit mir in Kontakt treten möchten, können Sie mich über das Kontaktformular auf der Website erreichen oder mir eine Nachricht auf LinkedIn senden.
