@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import bgImage from "/src/assets/background.jpg";
 
 const Home = () => {
   return (
@@ -7,21 +6,9 @@ const Home = () => {
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-center text-center overflow-hidden"
     >
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          width: "100vw",
-          height: "100vh",
-        }}
-      />
+      <div className="absolute inset-0 bg-black opacity-60 z-0 pointer-events-none"></div>
 
-      <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
-
-      <div className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         <img
           src="./src/assets/profilfotos/profilfoto.jpg"
           className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-4 border-gray-700 shadow-lg mx-auto mb-4"

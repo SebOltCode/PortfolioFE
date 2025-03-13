@@ -1,20 +1,9 @@
 import React from "react";
-import bgImage from "/src/assets/background.jpg";
 
 const Experience = () => {
   return (
-    <section
-      id="experience"
-      className="relative text-white py-16 min-h-screen"
-      style={{
-        backgroundImage: `url(${bgImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-      }}
-    >
-      <div className="absolute inset-0 bg-gray-900 bg-opacity-80 z-0"></div>
+    <section id="experience" className="relative text-white py-16 min-h-screen">
+      <div className="absolute inset-0 bg-black opacity-60 z-0 pointer-events-none"></div>
 
       <div className="max-w-6xl mx-auto px-6 pb-16 relative z-10">
         <p className="text-teal-500 text-center uppercase font-semibold mb-2">
