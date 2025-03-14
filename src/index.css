@@ -3,9 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+  scroll-padding-top: 80px; /* Berücksichtigt die Navbar-Höhe */
+}
 
 html,
 body {
@@ -146,7 +147,7 @@ body {
   background-attachment: fixed;
 }
 
-overlay {
+.overlay {
   position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
