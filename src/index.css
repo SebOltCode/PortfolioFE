@@ -1,11 +1,10 @@
-/* filepath: c:\wbs-exercises\Portfolio\my-portfolio\src\index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* Berücksichtigt die Navbar-Höhe */
+  scroll-padding-top: 80px;
 }
 
 html,
@@ -52,6 +51,12 @@ body {
   gap: 1rem;
   padding: 0 1rem;
   overflow: visible;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.marquee img {
+  box-shadow: 0 0 1px transparent;
 }
 
 .image-container {
@@ -117,26 +122,54 @@ body {
 .image-slideshow-container {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
-
 .slideshow-image {
   position: relative;
-  transition: opacity 1s ease-in-out, transform 1.2s ease-in-out;
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  border: 2px solid #374151;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fade-in {
-  opacity: 1;
-  transform: scale(1);
+@media (max-width: 1024px) {
+  .slideshow-image {
+    width: 224px;
+    height: 224px;
+  }
 }
 
-.fade-out {
-  opacity: 0;
-  transform: scale(1.05);
+@media (max-width: 768px) {
+  .slideshow-image {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+.slideshow-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideshow-image .current-image {
+  z-index: 2;
+}
+
+.slideshow-image .next-image {
+  z-index: 1;
 }
 
 body {

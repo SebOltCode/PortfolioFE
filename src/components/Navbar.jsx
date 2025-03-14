@@ -8,7 +8,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  // Funktion zum Schließen des Menüs nach Klick
   const closeMenu = () => {
     setIsOpen(false);
   };
