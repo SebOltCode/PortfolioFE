@@ -1,8 +1,35 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [isLanguageDropdownOpen, setLanguageIsDropdownOpen] = useState(false);
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    setLanguageIsDropdownOpen(false);
+  };
+
+  const languageMap = {
+    de: "Deutsch",
+    en: "English",
+    pt: "Português",
+    fr: "Français",
+    es: "Español",
+    tr: "Türkçe",
+    uk: "Українська",
+    ru: "Русский",
+    it: "Italiano",
+    pl: "Polski",
+    sv: "Svenska",
+    no: "Norsk",
+  };
+
+  const getLanguageLabel = (lng) => {
+    return languageMap[lng];
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -12,11 +39,38 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
+  const toggleDropdown = () => {
+    setLanguageIsDropdownOpen(!isLanguageDropdownOpen);
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 p-4 bg-gray-900 text-white flex justify-between items-center shadow-lg">
-      <h1 className="text-2xl font-bold">Portfolio</h1>
+      <h1 className="text-2xl font-bold">{t("navbar.title")}</h1>
       <div className="md:hidden cursor-pointer" onClick={toggleMenu}>
         {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+      </div>
+      <div className="relative md:ml-auto md:mr-4">
+        <button
+          onClick={toggleDropdown}
+          className="ml-4 bg-gray-900 border border-gray-700 rounded-lg px-3 py-1 text-white text-sm"
+        >
+          {i18n.language.toUpperCase()}
+        </button>
+        {isLanguageDropdownOpen && (
+          <div className="absolute right-0 mt-2 w-40 bg-gray-900 border border-gray-700 rounded-lg shadow-lg z-10">
+            <ul className="max-h-60 overflow-y-auto">
+              {Object.keys(languageMap).map((lng) => (
+                <li
+                  key={lng}
+                  className="px-4 py-2 hover:bg-gray-700 cursor-pointer text-white text-sm"
+                  onClick={() => changeLanguage(lng)}
+                >
+                  {getLanguageLabel(lng)}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
       <ul
         className={`flex md:flex ${
@@ -43,7 +97,7 @@ const Navbar = () => {
             className="hover:text-teal-500 cursor-pointer text-left bg-transparent border-none text-white p-0 font-inherit no-underline"
             onClick={closeMenu}
           >
-            Home
+            {t("navbar.home")}
           </a>
         </li>
 
@@ -53,7 +107,7 @@ const Navbar = () => {
             className="hover:text-teal-500 cursor-pointer text-left bg-transparent border-none text-white p-0 font-inherit no-underline"
             onClick={closeMenu}
           >
-            Experience
+            {t("navbar.experience")}
           </a>
         </li>
 
@@ -63,7 +117,7 @@ const Navbar = () => {
             className="hover:text-teal-500 cursor-pointer text-left bg-transparent border-none text-white p-0 font-inherit no-underline"
             onClick={closeMenu}
           >
-            Projects
+            {t("navbar.projects")}
           </a>
         </li>
 
@@ -73,7 +127,7 @@ const Navbar = () => {
             className="hover:text-teal-500 cursor-pointer text-left bg-transparent border-none text-white p-0 font-inherit no-underline"
             onClick={closeMenu}
           >
-            About
+            {t("navbar.about")}
           </a>
         </li>
 
@@ -83,7 +137,7 @@ const Navbar = () => {
             className="hover:text-teal-500 cursor-pointer text-left bg-transparent border-none text-white p-0 font-inherit no-underline"
             onClick={closeMenu}
           >
-            Contact
+            {t("navbar.contact")}
           </a>
         </li>
 

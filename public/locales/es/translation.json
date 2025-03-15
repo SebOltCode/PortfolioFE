@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "title": "Portafolio",
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+
+  "home": {
+    "profilePhotoAlt": "Foto de perfil",
+    "welcomeMessage": "¡Bienvenido a mi sitio web de portafolio!",
+    "introduction": "¡Hola, soy Sebastián, un cambio de carrera y apasionado desarrollador Full-Stack! Este es mi sitio web de portafolio, donde no solo muestro mis habilidades técnicas y blandas, sino que también comparto un poco sobre mí. Mi objetivo es dar a los posibles empleadores una primera impresión tanto de mis habilidades como de mi personalidad. ¡Siéntete libre de explorar mis proyectos, conocer más sobre mi viaje y no dudes en ponerte en contacto si quieres conectar!"
+  },
+
+  "experience": {
+    "whatIDo": "Lo que hago",
+    "mySkillset": "Mis habilidades",
+    "frontendDevelopment": "Desarrollo Frontend",
+    "frontendDescription": "Construyo sitios web y aplicaciones web usando tecnologías modernas como React, ThreeJS y Tailwind CSS.",
+    "backendDevelopment": "Desarrollo Backend",
+    "backendDescription": "Desarrollo aplicaciones del lado del servidor utilizando Node.js, Express, PostgreSQL y MongoDB.",
+    "webDesign": "Diseño Web",
+    "webDesignDescription": "Diseño sitios web y aplicaciones web que son fáciles de usar y visualmente atractivas.",
+    "developmentSkills": "Habilidades de desarrollo",
+    "developmentSkillsDescription": "Como desarrollador MERN y PERN stack con un sólido entendimiento de la arquitectura backend, construyo aplicaciones web dinámicas y escalables. Mi enfoque está en crear experiencias de usuario fluidas con alto rendimiento y eficiencia, aprovechando las tecnologías modernas para entregar soluciones robustas Full-Stack.",
+    "webDesignSkills": "Habilidades en diseño web",
+    "webDesignSkillsDescription": "Como desarrollador Full-Stack, mi enfoque principal es construir aplicaciones funcionales y eficientes. Aunque no me considero un diseñador web profesional, he trabajado con varias herramientas y tecnologías de diseño para crear interfaces visualmente atractivas y fáciles de usar. Algunas de las herramientas con las que tengo experiencia incluyen:",
+    "technicalSkills": "Habilidades técnicas y herramientas",
+    "technicalSkillsDescription": "Como desarrollador Full-Stack, trabajo con una variedad de herramientas y tecnologías para construir, desplegar y mantener aplicaciones. Mis habilidades van más allá de la codificación; también tengo experiencia con administración de sistemas, flujos de trabajo de desarrollo y metodologías ágiles. Con estas habilidades, aseguro implementaciones sin problemas, procesos de desarrollo eficientes y sistemas bien gestionados. Me desenvuelvo bien en entornos ágiles y siempre busco formas de optimizar los flujos de trabajo y la colaboración. Aquí algunas de las tecnologías y prácticas clave que uso:",
+    "skillsInProgress": "Habilidades en progreso",
+    "skillsInProgressDescription": "Como desarrollador, siempre estoy ansioso por expandir mi conocimiento y explorar nuevas tecnologías. Actualmente, me estoy enfocando en mejorar mis habilidades en las siguientes áreas:"
+  },
+
+  "projects": {
+    "title": "Mis proyectos",
+    "description": "En esta página, muestro los proyectos en los que he trabajado durante mi bootcamp de desarrollo. La mayoría de estos proyectos fueron creados en solo una semana, excepto Inclusive Trip, que fue mi proyecto final donde desarrollé tanto el frontend como el backend. Estos proyectos son de nivel principiante, pero demuestran cuánto aprendí en solo cuatro meses y qué tan rápido progresé como desarrollador. Cada proyecto refleja mi capacidad para aplicar nuevos conceptos, trabajar bajo presión de tiempo y mejorar mis habilidades de manera continua.",
+    "inclusiveTripFrontend": "Frontend de Inclusive Trip",
+    "inclusiveTripBackend": "Backend de Inclusive Trip",
+    "pokemonGameFrontend": "Frontend de Pokemon Game",
+    "pokemonGameBackend": "Backend de Pokemon Game",
+    "eCommerceAPI": "API de Comercio Electrónico",
+    "movieDiary": "Diario de Películas",
+    "redirectTitle": "Redirigir al Proyecto",
+    "redirectMessage": "Estás intentando abrir el siguiente proyecto:",
+    "backButton": "Atrás",
+    "okButton": "OK"
+  },
+
+  "about": {
+    "title": "De aerogeneradores a desarrollo web – Mi viaje",
+    "description": "¡Hola! Soy Sebastián, un entusiasta de la tecnología, autodenominado geek de la tecnología, y alguien a quien le encanta un buen desafío. Mi viaje en el desarrollo web no fue exactamente como el de un libro de texto. De hecho, antes de comenzar a programar, pasé años trabajando en aseguramiento de calidad, electrónica y soporte técnico, e incluso tuve una breve incursión estudiando ciencias náuticas (¡sí, barcos!). Pero una cosa siempre ha estado clara: tengo una pasión por la tecnología y la resolución de problemas. Ya sea depurando código, solucionando problemas de hardware o descubriendo cómo evitar que mi gato me robe la silla, ¡me encanta encontrar soluciones! Más allá de la tecnología, soy una persona social y curiosa que disfruta viajar, jugar y hacer deportes. Podrías encontrarme jugando al baloncesto, nadando o haciendo proyectos de bricolaje cuando no estoy sumergido en el código. Me desarrollo bien en entornos de equipo, creo en el aprendizaje continuo y siempre busco aportar una actitud positiva y abierta donde sea que vaya. Así que, si buscas un jugador de equipo motivado, adaptable y divertido que esté ansioso por crecer, ¡conectemos!"
+  },
+
+  "contact": {
+    "title": "¡Conectemos!",
+    "subtitle": "¿Tienes preguntas o quieres trabajar juntos? ¡No dudes en ponerte en contacto!",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "discuss": "¿Sobre qué te gustaría hablar?",
+    "jobOpportunities": "Oportunidades laborales",
+    "buildSomething": "Tengo una idea – ¡construyamos algo increíble!",
+    "shareIdeas": "¡Conectemos y compartamos ideas!",
+    "somethingElse": "¿Algo más? ¡Déjame saber!",
+    "requestResume": "Me gustaría recibir una copia de tu currículum",
+    "sending": "Enviando...",
+    "submit": "Enviar",
+    "errorFillFields": "Por favor, llena todos los campos requeridos.",
+    "errorSelectTopic": "Por favor, selecciona al menos un tema.",
+    "errorCaptcha": "Por favor, completa la verificación reCAPTCHA.",
+    "successMessage": "¡Tu mensaje ha sido enviado con éxito! Me pondré en contacto contigo pronto.",
+    "errorSendMessage": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "errorNetwork": "Error de red. Por favor, revisa tu conexión e inténtalo de nuevo."
+  }
+}

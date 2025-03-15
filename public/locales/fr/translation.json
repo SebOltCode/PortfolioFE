@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "title": "Portfolio",
+    "home": "Accueil",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "about": "À propos de moi",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "profilePhotoAlt": "Photo de profil",
+    "welcomeMessage": "Bienvenue sur mon site portfolio !",
+    "introduction": "Salut, je suis Sebastian, un reconverti et passionné de développement web Full-Stack. Voici mon site portfolio, où je montre non seulement mes compétences techniques et humaines, mais aussi un peu de moi-même. Mon objectif est de donner aux employeurs potentiels une première impression de mes compétences et de ma personnalité. N'hésitez pas à explorer mes projets, à en savoir plus sur mon parcours et à me contacter si vous souhaitez échanger !"
+  },
+
+  "experience": {
+    "whatIDo": "Ce que je fais",
+    "mySkillset": "Mes compétences",
+    "frontendDevelopment": "Développement Frontend",
+    "frontendDescription": "Je construis des sites web et des applications web avec des technologies modernes telles que React, ThreeJS et Tailwind CSS.",
+    "backendDevelopment": "Développement Backend",
+    "backendDescription": "Je développe des applications côté serveur en utilisant Node.js, Express, PostgreSQL et MongoDB.",
+    "webDesign": "Design Web",
+    "webDesignDescription": "Je conçois des sites web et des applications web à la fois conviviaux et visuellement attractifs.",
+    "developmentSkills": "Compétences en développement",
+    "developmentSkillsDescription": "En tant que développeur MERN et PERN stack avec une bonne compréhension de l'architecture backend, je construis des applications web dynamiques et évolutives. Mon objectif est de créer des expériences utilisateur fluides, performantes et efficaces, en utilisant des technologies modernes pour fournir des solutions robustes Full-Stack.",
+    "webDesignSkills": "Compétences en design web",
+    "webDesignSkillsDescription": "En tant que développeur Full-Stack, mon principal objectif est de créer des applications fonctionnelles et efficaces. Bien que je ne me considère pas comme un designer web professionnel, j'ai travaillé avec divers outils et technologies de conception pour créer des interfaces attrayantes et conviviales. Voici quelques outils avec lesquels j'ai de l'expérience :",
+    "technicalSkills": "Compétences techniques et outils",
+    "technicalSkillsDescription": "En tant que développeur Full-Stack, je travaille avec une variété d'outils et de technologies pour construire, déployer et maintenir des applications. Mes compétences vont au-delà du codage : j'ai également de l'expérience en administration système, flux de travail de développement et méthodologies agiles. Grâce à ces compétences, je veille à ce que les déploiements se fassent sans accroc, que les processus de développement soient efficaces et que les systèmes soient bien gérés. Je prospère dans les environnements agiles et cherche constamment des moyens d'optimiser les flux de travail et la collaboration. Voici quelques-unes des principales technologies et pratiques que j'utilise :",
+    "skillsInProgress": "Compétences en développement",
+    "skillsInProgressDescription": "En tant que développeur, je suis toujours avide d'élargir mes connaissances et d'explorer de nouvelles technologies. Actuellement, je me concentre sur l'amélioration de mes compétences dans les domaines suivants :"
+  },
+
+  "projects": {
+    "title": "Mes projets",
+    "description": "Sur cette page, je présente les projets sur lesquels j'ai travaillé pendant mon bootcamp de développement. La plupart de ces projets ont été créés en une seule semaine, à l'exception d'Inclusive Trip, qui a été mon projet final où j'ai développé à la fois le frontend et le backend. Ces projets sont à un niveau débutant, mais ils montrent combien j'ai appris en seulement quatre mois et à quelle vitesse j'ai progressé en tant que développeur. Chaque projet reflète ma capacité à appliquer de nouveaux concepts, à travailler sous pression et à améliorer mes compétences de manière continue.",
+    "inclusiveTripFrontend": "Frontend d'Inclusive Trip",
+    "inclusiveTripBackend": "Backend d'Inclusive Trip",
+    "pokemonGameFrontend": "Frontend du jeu Pokémon",
+    "pokemonGameBackend": "Backend du jeu Pokémon",
+    "eCommerceAPI": "API E-Commerce",
+    "movieDiary": "Journal de films",
+    "redirectTitle": "Redirection vers le projet",
+    "redirectMessage": "Vous essayez d'ouvrir le projet suivant :",
+    "backButton": "Retour",
+    "okButton": "OK"
+  },
+
+  "about": {
+    "title": "Des éoliennes au développement web – Mon parcours",
+    "description": "Salut ! Je suis Sebastian, un passionné de technologie, un geek autoproclamé, et quelqu'un qui aime relever des défis. Mon parcours dans le développement web n'a pas été exactement comme un livre de cours. En fait, avant de me mettre à coder, j'ai passé des années à travailler dans l'assurance qualité, l'électronique et le support informatique – et j'ai même eu une courte période où j'ai étudié les sciences maritimes (oui, des bateaux !). Mais une chose a toujours été claire : j'ai une passion pour la technologie et la résolution de problèmes. Que ce soit en déboguant du code, en réparant du matériel ou en cherchant comment empêcher mon chat de voler ma chaise, j'adore trouver des solutions. En dehors de la technologie, je suis une personne sociale et curieuse qui aime voyager, jouer et faire du sport. Vous pourriez me trouver en train de jouer au basket, de nager ou de bricoler quand je ne suis pas plongé dans du code. Je m'épanouis dans les environnements d'équipe, je crois en l'apprentissage tout au long de la vie et je cherche toujours à apporter une attitude positive et ouverte partout où je vais. Donc, si vous cherchez un coéquipier motivé, adaptable et sympa, prêt à grandir, connectons-nous !"
+  },
+
+  "contact": {
+    "title": "Connectons-nous !",
+    "subtitle": "Des questions ou envie de travailler ensemble ? N'hésitez pas à me contacter !",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "message": "Message",
+    "discuss": "De quoi voulez-vous parler ?",
+    "jobOpportunities": "Opportunités d'emploi",
+    "buildSomething": "J'ai une idée – construisons quelque chose d'incroyable !",
+    "shareIdeas": "Connectons-nous et échangeons des idées !",
+    "somethingElse": "Autre chose ? Faites-le moi savoir !",
+    "requestResume": "J'aimerais recevoir une copie de votre CV",
+    "sending": "Envoi en cours...",
+    "submit": "Envoyer",
+    "errorFillFields": "Veuillez remplir tous les champs obligatoires.",
+    "errorSelectTopic": "Veuillez sélectionner au moins un sujet.",
+    "errorCaptcha": "Veuillez compléter la vérification reCAPTCHA.",
+    "successMessage": "Votre message a été envoyé avec succès ! Je reviendrai vers vous bientôt.",
+    "errorSendMessage": "Échec de l'envoi du message. Veuillez réessayer.",
+    "errorNetwork": "Erreur de réseau. Vérifiez votre connexion et réessayez."
+  }
+}

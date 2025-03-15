@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="home"
@@ -10,55 +13,50 @@ const Home = () => {
         <img
           src="./assets/profilfotos/profilfoto.jpg"
           className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-4 border-gray-700 shadow-lg mx-auto mb-4"
-          alt="Profilfoto"
+          alt={t("home.profilePhotoAlt")}
         />
         <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-white">
-          Welcome on my Portfolio Website! <br />
+          {t("home.welcomeMessage")}
         </h1>
         <p className="text-gray-300 text-lg md:text-xl mx-auto">
-          Hi, I’m Sebastian, a career changer and passionate Full-Stack Web
-          Developer. This is my portfolio website, where I not only showcase my
-          technical and soft skills, but also share a bit about myself. My goal
-          is to give potential employers a first impression of both my skills
-          and my personality. Feel free to explore my projects, learn more about
-          my journey, and don’t hesitate to reach out if you’d like to connect!
+          {t("home.introduction")}
         </p>
         <div className="mt-8 flex flex-col sm:flex-row justify-center sm:space-x-4 space-y-4 sm:space-y-0 hidden sm:flex">
           <a
             href="#home"
             className="bg-teal-500 text-white font-medium py-3 px-6 rounded hover:bg-teal-600 transition w-full sm:w-auto active:bg-teal-700"
           >
-            Home
+            {t("navbar.home")}
           </a>
           <a
             href="#about"
             className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
           >
-            Contact
+            {t("navbar.contact")}
           </a>
           <a
             href="#experience"
             className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
           >
-            Experience
+            {t("navbar.experience")}
           </a>
           <a
             href="#projects"
             className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
           >
-            Projects
+            {t("navbar.projects")}
           </a>
           <a
             href="#about"
             className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
           >
-            About
+            {t("navbar.about")}
           </a>
           <a
             href="#contact"
             className="border border-teal-500 text-teal-500 font-medium py-3 px-6 rounded hover:bg-teal-500 hover:text-white transition w-full sm:w-auto"
           >
-            Contact
+            {t("navbar.contact")}
           </a>
         </div>
       </div>

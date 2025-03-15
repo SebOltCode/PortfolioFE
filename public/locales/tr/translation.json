@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "title": "Portföy",
+    "home": "Ana Sayfa",
+    "experience": "Deneyim",
+    "projects": "Projeler",
+    "about": "Hakkında",
+    "contact": "İletişim"
+  },
+
+  "home": {
+    "profilePhotoAlt": "Profil Fotoğrafı",
+    "welcomeMessage": "Portföy Web Siteme Hoş Geldiniz!",
+    "introduction": "Merhaba, ben Sebastian, kariyer değiştiren ve tutkulu bir Full-Stack Web Geliştiricisiyim. Bu benim portföy web sitem, burada sadece teknik ve yumuşak becerilerimi sergilemekle kalmıyor, aynı zamanda kendim hakkında biraz bilgi paylaşıyorum. Amacım, potansiyel işverenlere hem becerilerim hem de kişiliğim hakkında ilk izlenimi vermek. Projelerimi keşfetmekten, yolculuğum hakkında daha fazla bilgi edinmekten çekinmeyin ve bağlantı kurmak isterseniz bana ulaşmaktan çekinmeyin!"
+  },
+
+  "experience": {
+    "whatIDo": "Ne Yapıyorum",
+    "mySkillset": "Becerilerim",
+    "frontendDevelopment": "Frontend Geliştirme",
+    "frontendDescription": "React, ThreeJS ve Tailwind CSS gibi modern teknolojileri kullanarak web siteleri ve web uygulamaları oluşturuyorum.",
+    "backendDevelopment": "Backend Geliştirme",
+    "backendDescription": "Node.js, Express, PostgreSQL ve MongoDB kullanarak sunucu tarafı uygulamaları geliştiriyorum.",
+    "webDesign": "Web Tasarımı",
+    "webDesignDescription": "Kullanıcı dostu ve görsel olarak çekici web siteleri ve web uygulamaları tasarlıyorum.",
+    "developmentSkills": "Geliştirme Becerileri",
+    "developmentSkillsDescription": "Backend mimarisini güçlü bir şekilde anlayan bir MERN ve PERN stack geliştiricisi olarak, dinamik ve ölçeklenebilir web uygulamaları oluşturuyorum. Odağım, modern teknolojileri kullanarak yüksek performans ve verimlilikle kesintisiz kullanıcı deneyimleri yaratmak ve sağlam full-stack çözümler sunmaktır.",
+    "webDesignSkills": "Web Tasarım Becerileri",
+    "webDesignSkillsDescription": "Bir Full-Stack Web Geliştiricisi olarak, ana odak noktam işlevsel ve verimli uygulamalar oluşturmaktır. Kendimi profesyonel bir web tasarımcısı olarak adlandırmasam da, görsel olarak çekici ve kullanıcı dostu arayüzler oluşturmak için çeşitli tasarım araçları ve teknolojileri ile çalıştım. Deneyim sahibi olduğum bazı araçlar şunlardır:",
+    "technicalSkills": "Teknik Beceriler ve Araçlar",
+    "technicalSkillsDescription": "Bir Full-Stack Web Geliştiricisi olarak, uygulamaları oluşturmak, dağıtmak ve sürdürmek için çeşitli araçlar ve teknolojilerle çalışıyorum. Becerilerim kodlamanın ötesine geçiyor—sistem yönetimi, geliştirme iş akışları ve çevik metodolojiler konusunda da deneyimim var. Bu becerilerle, sorunsuz dağıtımlar, verimli geliştirme süreçleri ve iyi yönetilen sistemler sağlıyorum. Çevik ortamlarda gelişiyorum ve iş akışlarını ve işbirliğini optimize etmenin yollarını sürekli olarak arıyorum. Kullandığım bazı önemli teknolojiler ve uygulamalar şunlardır:",
+    "skillsInProgress": "Geliştirilmekte Olan Beceriler",
+    "skillsInProgressDescription": "Bir geliştirici olarak, bilgimi genişletmek ve yeni teknolojileri keşfetmek için her zaman hevesliyim. Şu anda, aşağıdaki alanlarda becerilerimi geliştirmeye odaklanıyorum:"
+  },
+
+  "projects": {
+    "title": "Projelerim",
+    "description": "Bu sayfada, geliştirme bootcamp'im sırasında üzerinde çalıştığım projeleri sergiliyorum. Bu projelerin çoğu sadece bir hafta içinde oluşturuldu, Inclusive Trip hariç, bu benim final projemdi ve hem frontend hem de backend geliştirdim. Bu projeler başlangıç seviyesinde, ancak sadece dört ayda ne kadar öğrendiğimi ve geliştirici olarak ne kadar hızlı ilerlediğimi gösteriyor. Her proje, yeni kavramları uygulama, zaman kısıtlamaları altında çalışma ve becerilerimi sürekli olarak geliştirme yeteneğimi yansıtıyor.",
+    "inclusiveTripFrontend": "Inclusive Trip Frontend",
+    "inclusiveTripBackend": "Inclusive Trip Backend",
+    "pokemonGameFrontend": "Pokemon Oyunu Frontend",
+    "pokemonGameBackend": "Pokemon Oyunu Backend",
+    "eCommerceAPI": "E-Ticaret API",
+    "movieDiary": "Film Günlüğü",
+    "redirectTitle": "Projeye Yönlendirme",
+    "redirectMessage": "Aşağıdaki projeyi açmaya çalışıyorsunuz:",
+    "backButton": "Geri",
+    "okButton": "Tamam"
+  },
+
+  "about": {
+    "title": "Rüzgar Türbinlerinden Web Geliştirmeye – Benim Yolculuğum",
+    "description": "Merhaba! Ben Sebastian – bir IT meraklısı, kendini ilan eden teknoloji tutkunu ve iyi bir meydan okumayı seven biri. Web geliştirme yolculuğum tam olarak bir ders kitabından çıkmış gibi değildi. Aslında, kodlamaya başlamadan önce, kalite güvencesi, elektronik ve IT desteğinde yıllar geçirdim – ve hatta kısa bir süre denizcilik bilimi okudum (evet, gemiler!). Ancak bir şey her zaman açıktı: teknolojiye ve problem çözmeye karşı bir tutkum var. İster kodu hata ayıklamak, ister donanım sorunlarını gidermek, ister kedimin sandalyemi çalmasını nasıl durduracağımı bulmak olsun – çözümler bulmayı seviyorum. Teknolojinin ötesinde, sosyal ve meraklı biriyim, seyahat etmeyi, oyun oynamayı ve spor yapmayı seviyorum. Kod yazmadığım zamanlarda basketbol oynarken, yüzerken veya DIY projeleriyle uğraşırken beni bulabilirsiniz. Takım ortamlarında gelişiyorum, yaşam boyu öğrenmeye inanıyorum ve nereye gidersem gideyim her zaman olumlu ve açık fikirli bir tutum getirmeyi hedefliyorum. Yani, büyümeye hevesli, motive, uyumlu ve eğlenceli bir takım oyuncusu arıyorsanız, bağlantı kuralım!"
+  },
+
+  "contact": {
+    "title": "Bağlantı Kuralım!",
+    "subtitle": "Sorularınız mı var veya birlikte çalışmak mı istiyorsunuz? İletişime geçmekten çekinmeyin!",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "discuss": "Ne hakkında konuşmak istersiniz?",
+    "jobOpportunities": "İş Fırsatları",
+    "buildSomething": "Bir fikrim var—hadi harika bir şeyler inşa edelim!",
+    "shareIdeas": "Bağlantı kuralım ve fikirlerimizi paylaşalım!",
+    "somethingElse": "Başka bir şey mi? Bana bildirin!",
+    "requestResume": "Özgeçmişinizin bir kopyasını almak istiyorum",
+    "sending": "Gönderiliyor...",
+    "submit": "Gönder",
+    "errorFillFields": "Lütfen tüm gerekli alanları doldurun.",
+    "errorSelectTopic": "Lütfen en az bir konu seçin.",
+    "errorCaptcha": "Lütfen reCAPTCHA doğrulamasını tamamlayın.",
+    "successMessage": "Mesajınız başarıyla gönderildi! Yakında size geri döneceğim.",
+    "errorSendMessage": "Mesaj gönderilemedi. Lütfen tekrar deneyin.",
+    "errorNetwork": "Ağ hatası. Lütfen bağlantınızı kontrol edin ve tekrar deneyin."
+  }
+}
