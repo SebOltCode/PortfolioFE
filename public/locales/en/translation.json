@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "title": "Portfolio",
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "profilePhotoAlt": "Profile Photo",
+    "welcomeMessage": "Welcome on my Portfolio Website!",
+    "introduction": "Hi, I’m Sebastian, a career changer and passionate Full-Stack Web Developer. This is my portfolio website, where I not only showcase my technical and soft skills, but also share a bit about myself. My goal is to give potential employers a first impression of both my skills and my personality. Feel free to explore my projects, learn more about my journey, and don’t hesitate to reach out if you’d like to connect!"
+  },
+
+  "experience": {
+    "whatIDo": "What I Do",
+    "mySkillset": "My Skillset",
+    "frontendDevelopment": "Frontend Development",
+    "frontendDescription": "I build websites and web applications using modern technologies like React, ThreeJS and Tailwind CSS.",
+    "backendDevelopment": "Backend Development",
+    "backendDescription": "I develop server-side applications using Node.js, Express, PostgreSQL and MongoDB.",
+    "webDesign": "Web Design",
+    "webDesignDescription": "I design websites and web applications that are user friendly and visually appealing.",
+    "developmentSkills": "Development Skills",
+    "developmentSkillsDescription": "As a MERN and PERN stack developer with a strong understanding of backend architecture, I build dynamic, scalable web applications. My focus is on creating seamless user experiences with high performance and efficiency, leveraging modern technologies to deliver robust, full-stack solutions.",
+    "webDesignSkills": "Web Design Skills",
+    "webDesignSkillsDescription": "As a Full-Stack Web Developer, my main focus is on building functional and efficient applications. While I wouldn't call myself a professional web designer, I have worked with various design tools and technologies to create visually appealing and user-friendly interfaces. Some of the tools I have experience with include:",
+    "technicalSkills": "Technical Skills & Tools",
+    "technicalSkillsDescription": "As a Full-Stack Web Developer, I work with a variety of tools and technologies to build, deploy, and maintain applications. My skill set extends beyond coding—I also have experience with system administration, development workflows, and agile methodologies. With these skills, I ensure smooth deployments, efficient development processes, and well-managed systems. I thrive in agile environments and continuously seek ways to optimize workflows and collaboration. Here are some of the key technologies and practices I use:",
+    "skillsInProgress": "Skills in Progress",
+    "skillsInProgressDescription": "As a developer, I'm always eager to expand my knowledge and explore new technologies. Currently, I'm focusing on improving my skills in the following areas:"
+  },
+
+  "projects": {
+    "title": "My Projects",
+    "description": "On this page, I showcase the projects I’ve worked on during my development bootcamp. Most of these projects were created within just one week, except for Inclusive Trip, which was my final project where I developed both the frontend and backend. These projects are at a beginner level, but they demonstrate how much I learned in just four months and how quickly I progressed as a developer. Each project reflects my ability to apply new concepts, work under time constraints, and continuously improve my skills.",
+    "inclusiveTripFrontend": "Inclusive Trip Frontend",
+    "inclusiveTripBackend": "Inclusive Trip Backend",
+    "pokemonGameFrontend": "Pokemon Game Frontend",
+    "pokemonGameBackend": "Pokemon Game Backend",
+    "eCommerceAPI": "E-Commerce API",
+    "movieDiary": "Moviediary",
+    "redirectTitle": "Redirect to Project",
+    "redirectMessage": "You are trying to open the following project:",
+    "backButton": "Back",
+    "okButton": "OK"
+  },
+
+  "about": {
+    "title": "From Wind Turbines to Web Development – My Journey",
+    "description": "Hey there! I'm Sebastian – an IT enthusiast, self-proclaimed tech geek, and someone who loves a good challenge. My journey into web development wasn't exactly straight out of a textbook. In fact, before I started coding, I spent years working in quality assurance, electronics, and IT support – and even had a brief stint studying nautical science (yes, ships!). But one thing has always been clear: I've got a passion for technology and problem-solving. Whether it's debugging code, troubleshooting hardware, or figuring out how to get my cat to stop stealing my chair – I love finding solutions. Beyond tech, I'm a social and curious person who enjoys traveling, gaming, and sports. You might find me shooting hoops, swimming, or tinkering with DIY projects when I'm not buried in code. I thrive in team environments, believe in lifelong learning, and always aim to bring a positive and open-minded attitude wherever I go. So, if you're looking for a motivated, adaptable, and fun team player who's eager to grow, let's connect!"
+  },
+
+  "contact": {
+    "title": "Let's Connect!",
+    "subtitle": "Have questions or want to work together? Feel free to reach out!",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "discuss": "What would you like to discuss?",
+    "jobOpportunities": "Job Opportunities",
+    "buildSomething": "I have an idea—let's build something awesome!",
+    "shareIdeas": "Let's connect and share ideas!",
+    "somethingElse": "Something else? Let me know!",
+    "requestResume": "I'd like to receive a copy of your resume",
+    "sending": "Sending...",
+    "submit": "Submit",
+    "errorFillFields": "Please fill out all required fields.",
+    "errorSelectTopic": "Please select at least one topic.",
+    "errorCaptcha": "Please complete the reCAPTCHA verification.",
+    "successMessage": "Your message has been sent successfully! I'll get back to you soon.",
+    "errorSendMessage": "Failed to send message. Please try again.",
+    "errorNetwork": "Network error. Please check your connection and try again."
+  }
+}

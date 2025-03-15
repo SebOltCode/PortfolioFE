@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./index.css";
 import App from "./App.jsx";
+import "./i18n";
 
 function Main() {
   useEffect(() => {

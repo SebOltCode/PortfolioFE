@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "title": "Portfolio",
+    "home": "Startseite",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "about": "Über mich",
+    "contact": "Kontakt"
+  },
+
+  "home": {
+    "profilePhotoAlt": "Profilfoto",
+    "welcomeMessage": "Willkommen auf meiner Portfolio-Website!",
+    "introduction": "Hey, ich bin Sebastian – Quereinsteiger und leidenschaftlicher Full-Stack-Webentwickler. Auf dieser Portfolio-Website präsentiere ich meine technischen Fähigkeiten und gebe auch einen kleinen Einblick in meine Person. Mein Ziel? Potenziellen Arbeitgebern einen ersten Eindruck von meinem Können und meiner Persönlichkeit zu vermitteln – und mich mit anderen IT-Enthusiasten zu vernetzen, um Wissen, Erfahrungen und Ideen auszutauschen. Schau dich gerne um, entdecke meine Projekte und erfahre mehr über meinen Weg. Und wenn du Lust hast, dich auszutauschen oder in Kontakt zu treten – zögere nicht, mich zu kontaktieren!"
+  },
+
+  "experience": {
+    "whatIDo": "Was ich mache",
+    "mySkillset": "Meine Fähigkeiten",
+    "frontendDevelopment": "Frontend-Entwicklung",
+    "frontendDescription": "Websites und Webanwendungen entstehen bei mir mit modernen Technologien wie React, ThreeJS und Tailwind CSS.",
+    "backendDevelopment": "Backend-Entwicklung",
+    "backendDescription": "Für die serverseitige Entwicklung kommen Node.js, Express, PostgreSQL und MongoDB zum Einsatz.",
+    "webDesign": "Webdesign",
+    "webDesignDescription": "Bei der Gestaltung von Websites und Webanwendungen liegt der Fokus auf Benutzerfreundlichkeit und ansprechendem Design.",
+    "developmentSkills": "Entwicklungsfähigkeiten",
+    "developmentSkillsDescription": "Als MERN- und PERN-Stack-Entwickler mit einem fundierten Verständnis der Backend-Architektur baue ich dynamische, skalierbare Webanwendungen. Mein Fokus liegt auf der Schaffung nahtloser Benutzererfahrungen mit hoher Leistung und Effizienz, indem ich moderne Technologien nutze, um robuste Full-Stack-Lösungen zu liefern.",
+    "webDesignSkills": "Webdesign-Fähigkeiten",
+    "webDesignSkillsDescription": "Als Full-Stack Web-Entwickler liegt mein Hauptfokus auf der Erstellung funktionaler und effizienter Anwendungen. Obwohl ich mich nicht als professionellen Webdesigner bezeichne, habe ich mit verschiedenen Design-Tools und Technologien gearbeitet, um visuell ansprechende und benutzerfreundliche Oberflächen zu erstellen. Einige der Tools, mit denen ich Erfahrung habe, sind:",
+    "technicalSkills": "Technische Fähigkeiten & Werkzeuge",
+    "technicalSkillsDescription": "Als Full-Stack Web-Entwickler arbeite ich mit einer Vielzahl von Werkzeugen und Technologien, um Anwendungen zu bauen, bereitzustellen und zu warten. Meine Fähigkeiten gehen über das Programmieren hinaus – ich habe auch Erfahrung in der Systemadministration, Entwicklungsabläufen und agilen Methoden. Mit diesen Fähigkeiten stelle ich sicher, dass Bereitstellungen reibungslos verlaufen, Entwicklungsprozesse effizient sind und Systeme gut verwaltet werden. Ich gedeihe in agilen Umfeldern und suche kontinuierlich nach Wegen, Arbeitsabläufe und Zusammenarbeit zu optimieren. Hier sind einige der wichtigsten Technologien und Praktiken, die ich benutze:",
+    "skillsInProgress": "Fähigkeiten in Arbeit",
+    "skillsInProgressDescription": "Als Entwickler bin ich stets bestrebt, mein Wissen zu erweitern und neue Technologien zu erkunden. Derzeit konzentriere ich mich darauf, meine Fähigkeiten in den folgenden Bereichen zu verbessern:"
+  },
+
+  "projects": {
+    "title": "Meine Projekte",
+    "description": "Auf dieser Seite zeige ich die Projekte, an denen ich während meines Entwicklungs-Bootcamps gearbeitet habe. Die meisten dieser Projekte wurden innerhalb einer Woche erstellt, mit Ausnahme von Inclusive Trip, das mein Abschlussprojekt war, bei dem ich sowohl das Frontend als auch das Backend entwickelt habe. Diese Projekte sind auf Anfängerniveau, aber sie zeigen, wie viel ich in nur vier Monaten gelernt habe und wie schnell ich mich als Entwickler weiterentwickelt habe. Jedes Projekt spiegelt meine Fähigkeit wider, neue Konzepte anzuwenden, unter Zeitdruck zu arbeiten und meine Fähigkeiten kontinuierlich zu verbessern.",
+    "inclusiveTripFrontend": "Inclusive Trip Frontend",
+    "inclusiveTripBackend": "Inclusive Trip Backend",
+    "pokemonGameFrontend": "Pokemon Spiel Frontend",
+    "pokemonGameBackend": "Pokemon Spiel Backend",
+    "eCommerceAPI": "E-Commerce API",
+    "movieDiary": "Filmtagebuch",
+    "redirectTitle": "Weiterleiten zum Projekt",
+    "redirectMessage": "Du versuchst, das folgende Projekt zu öffnen:",
+    "backButton": "Zurück",
+    "okButton": "OK"
+  },
+
+  "about": {
+    "title": "Von Windturbinen zur Web-Entwicklung – Mein Weg",
+    "description": "Hey, ich bin Sebastian – IT-Enthusiast, Technik-Nerd und immer auf der Suche nach neuen Herausforderungen. Mein Weg in die Webentwicklung war alles andere als klassisch. Bevor ich mit dem Programmieren angefangen habe, war ich jahrelang in der Qualitätssicherung, Elektronik und im IT-Support tätig – und habe sogar kurz nautische Wissenschaften studiert (ja, Schiffe!). Doch eins war immer klar: Meine Leidenschaft gilt der Technik und dem Lösen von Problemen. Egal, ob es darum geht, Code zu debuggen, Hardware zu reparieren oder meiner Katze beizubringen, nicht ständig meinen Stuhl zu klauen – ich liebe es, Dinge zu verbessern und Lösungen zu finden. Abseits der Technik bin ich ein geselliger und neugieriger Mensch, der gerne reist, spielt und Sport treibt. Wenn ich nicht gerade in Code versinke, findet man mich vielleicht beim Basketball, Schwimmen oder beim Tüfteln an DIY-Projekten. Ich arbeite gerne im Team, glaube an lebenslanges Lernen und bringe immer eine offene und positive Einstellung mit. Wenn du also nach einem motivierten, anpassungsfähigen und humorvollen Teamplayer suchst, der gerne dazulernt – lass uns vernetzen!"
+  },
+
+  "contact": {
+    "title": "Lass uns verbinden!",
+    "subtitle": "Hast du Fragen oder möchtest du zusammenarbeiten? Melde dich gerne!",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "discuss": "Worüber möchtest du sprechen?",
+    "jobOpportunities": "Jobmöglichkeiten",
+    "buildSomething": "Ich habe eine Idee – lass uns etwas Großartiges bauen!",
+    "shareIdeas": "Lass uns verbinden und Ideen austauschen!",
+    "somethingElse": "Etwas anderes? Lass es mich wissen!",
+    "requestResume": "Ich möchte eine Kopie deines Lebenslaufs erhalten",
+    "sending": "Wird gesendet...",
+    "submit": "Absenden",
+    "errorFillFields": "Bitte fülle alle erforderlichen Felder aus.",
+    "errorSelectTopic": "Bitte wähle mindestens ein Thema aus.",
+    "errorCaptcha": "Bitte vervollständige die reCAPTCHA-Verifizierung.",
+    "successMessage": "Deine Nachricht wurde erfolgreich gesendet! Ich werde mich bald bei dir melden.",
+    "errorSendMessage": "Nachricht konnte nicht gesendet werden. Bitte versuche es erneut.",
+    "errorNetwork": "Netzwerkfehler. Bitte überprüfe deine Verbindung und versuche es erneut."
+  }
+}

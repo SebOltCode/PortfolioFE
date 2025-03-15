@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "title": "Portefølje",
+    "home": "Hjem",
+    "experience": "Erfaring",
+    "projects": "Prosjekter",
+    "about": "Om",
+    "contact": "Kontakt"
+  },
+
+  "home": {
+    "profilePhotoAlt": "Profilbilde",
+    "welcomeMessage": "Velkommen til min porteføljenettsted!",
+    "introduction": "Hei, jeg er Sebastian, en karriereveksler og lidenskapelig Full-Stack webutvikler. Dette er min porteføljenettsted, hvor jeg ikke bare viser frem mine tekniske og myke ferdigheter, men også deler litt om meg selv. Mitt mål er å gi potensielle arbeidsgivere et førsteinntrykk av både mine ferdigheter og min personlighet. Føl deg fri til å utforske mine prosjekter, lære mer om min reise, og ikke nøl med å ta kontakt hvis du vil koble til!"
+  },
+
+  "experience": {
+    "whatIDo": "Hva jeg gjør",
+    "mySkillset": "Mine ferdigheter",
+    "frontendDevelopment": "Frontend-utvikling",
+    "frontendDescription": "Jeg bygger nettsteder og webapplikasjoner ved hjelp av moderne teknologier som React, ThreeJS og Tailwind CSS.",
+    "backendDevelopment": "Backend-utvikling",
+    "backendDescription": "Jeg utvikler server-side applikasjoner ved hjelp av Node.js, Express, PostgreSQL og MongoDB.",
+    "webDesign": "Webdesign",
+    "webDesignDescription": "Jeg designer nettsteder og webapplikasjoner som er brukervennlige og visuelt tiltalende.",
+    "developmentSkills": "Utviklingsferdigheter",
+    "developmentSkillsDescription": "Som en MERN og PERN stack utvikler med en sterk forståelse av backend-arkitektur, bygger jeg dynamiske, skalerbare webapplikasjoner. Mitt fokus er på å skape sømløse brukeropplevelser med høy ytelse og effektivitet, ved å utnytte moderne teknologier for å levere robuste, full-stack løsninger.",
+    "webDesignSkills": "Webdesign ferdigheter",
+    "webDesignSkillsDescription": "Som en Full-Stack webutvikler er mitt hovedfokus på å bygge funksjonelle og effektive applikasjoner. Selv om jeg ikke vil kalle meg en profesjonell webdesigner, har jeg jobbet med ulike designverktøy og teknologier for å lage visuelt tiltalende og brukervennlige grensesnitt. Noen av verktøyene jeg har erfaring med inkluderer:",
+    "technicalSkills": "Tekniske ferdigheter og verktøy",
+    "technicalSkillsDescription": "Som en Full-Stack webutvikler jobber jeg med en rekke verktøy og teknologier for å bygge, distribuere og vedlikeholde applikasjoner. Mine ferdigheter strekker seg utover koding—jeg har også erfaring med systemadministrasjon, utviklingsarbeidsflyter og smidige metoder. Med disse ferdighetene sikrer jeg jevne distribusjoner, effektive utviklingsprosesser og godt administrerte systemer. Jeg trives i smidige miljøer og søker kontinuerlig etter måter å optimalisere arbeidsflyter og samarbeid. Her er noen av de viktigste teknologiene og praksisene jeg bruker:",
+    "skillsInProgress": "Ferdigheter under utvikling",
+    "skillsInProgressDescription": "Som utvikler er jeg alltid ivrig etter å utvide min kunnskap og utforske nye teknologier. For øyeblikket fokuserer jeg på å forbedre mine ferdigheter innen følgende områder:"
+  },
+
+  "projects": {
+    "title": "Mine prosjekter",
+    "description": "På denne siden viser jeg frem prosjektene jeg har jobbet med under mitt utviklingsbootcamp. De fleste av disse prosjektene ble laget innen bare én uke, bortsett fra Inclusive Trip, som var mitt avsluttende prosjekt hvor jeg utviklet både frontend og backend. Disse prosjektene er på nybegynnernivå, men de viser hvor mye jeg lærte på bare fire måneder og hvor raskt jeg utviklet meg som utvikler. Hvert prosjekt reflekterer min evne til å anvende nye konsepter, jobbe under tidspress og kontinuerlig forbedre mine ferdigheter.",
+    "inclusiveTripFrontend": "Inclusive Trip Frontend",
+    "inclusiveTripBackend": "Inclusive Trip Backend",
+    "pokemonGameFrontend": "Pokemon Game Frontend",
+    "pokemonGameBackend": "Pokemon Game Backend",
+    "eCommerceAPI": "E-Commerce API",
+    "movieDiary": "Filmdagbok",
+    "redirectTitle": "Omdirigering til prosjekt",
+    "redirectMessage": "Du prøver å åpne følgende prosjekt:",
+    "backButton": "Tilbake",
+    "okButton": "OK"
+  },
+
+  "about": {
+    "title": "Fra vindturbiner til webutvikling – Min reise",
+    "description": "Hei der! Jeg er Sebastian – en IT-entusiast, selverklært teknologinerd, og en som elsker en god utfordring. Min reise inn i webutvikling var ikke akkurat rett ut av en lærebok. Faktisk, før jeg begynte å kode, tilbrakte jeg år med å jobbe i kvalitetssikring, elektronikk og IT-støtte – og hadde til og med en kort periode med å studere nautiske vitenskaper (ja, skip!). Men én ting har alltid vært klart: Jeg har en lidenskap for teknologi og problemløsning. Enten det er feilsøking av kode, feilsøking av maskinvare, eller finne ut hvordan jeg får katten min til å slutte å stjele stolen min – jeg elsker å finne løsninger. Utover teknologi er jeg en sosial og nysgjerrig person som liker å reise, spille spill og drive med sport. Du kan finne meg skyte kurver, svømme eller fikle med DIY-prosjekter når jeg ikke er begravet i kode. Jeg trives i teammiljøer, tror på livslang læring, og har alltid som mål å bringe en positiv og åpen holdning uansett hvor jeg går. Så, hvis du leter etter en motivert, tilpasningsdyktig og morsom lagspiller som er ivrig etter å vokse, la oss koble til!"
+  },
+
+  "contact": {
+    "title": "La oss koble til!",
+    "subtitle": "Har du spørsmål eller vil jobbe sammen? Ta gjerne kontakt!",
+    "firstName": "Fornavn",
+    "lastName": "Etternavn",
+    "email": "E-post",
+    "phone": "Telefon",
+    "message": "Melding",
+    "discuss": "Hva vil du diskutere?",
+    "jobOpportunities": "Jobbmuligheter",
+    "buildSomething": "Jeg har en idé—la oss bygge noe fantastisk!",
+    "shareIdeas": "La oss koble til og dele ideer!",
+    "somethingElse": "Noe annet? Gi meg beskjed!",
+    "requestResume": "Jeg vil gjerne motta en kopi av din CV",
+    "sending": "Sender...",
+    "submit": "Send",
+    "errorFillFields": "Vennligst fyll ut alle nødvendige felt.",
+    "errorSelectTopic": "Vennligst velg minst ett emne.",
+    "errorCaptcha": "Vennligst fullfør reCAPTCHA-verifiseringen.",
+    "successMessage": "Din melding har blitt sendt! Jeg vil svare deg snart.",
+    "errorSendMessage": "Kunne ikke sende melding. Vennligst prøv igjen.",
+    "errorNetwork": "Nettverksfeil. Vennligst sjekk tilkoblingen din og prøv igjen."
+  }
+}

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation();
   const [modalOpen, setModalOpen] = useState(false);
   const [currentProject, setCurrentProject] = useState(null);
 
@@ -30,17 +32,10 @@ const Projects = () => {
     >
       <div className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
         <h1 className="text-3xl md:text-7xl font-extrabold mb-4 text-white">
-          My Projects <br />
+          {t("projects.title")} <br />
         </h1>
         <p className="text-gray-300 text-lg md:text-xl mx-auto">
-          On this page, I showcase the projects I’ve worked on during my
-          development bootcamp. Most of these projects were created within just
-          one week, except for Inclusive Trip, which was my final project where
-          I developed both the frontend and backend. <br /> These projects are
-          at a beginner level, but they demonstrate how much I learned in just
-          four months and how quickly I progressed as a developer. Each project
-          reflects my ability to apply new concepts, work under time
-          constraints, and continuously improve my skills.
+          {t("projects.description")}
         </p>
 
         <div className="marquee-container w-full mt-12 overflow-visible">
@@ -48,37 +43,37 @@ const Projects = () => {
             <div className="marquee-group gap-16 sm:gap-20 md:gap-24 overflow-visible">
               <img
                 src="/assets/projects-icons/inclusivetripfrontend.webp"
-                alt="Inclusive Trip Frontend"
+                alt={t("projects.inclusiveTripFrontend")}
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivetrip")}
               />
               <img
                 src="/assets/projects-icons/inclusivebackend.webp"
-                alt="Inclusive Trip Backend"
+                alt={t("projects.inclusiveTripBackend")}
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivebackend")}
               />
               <img
                 src="/assets/projects-icons/pokefront.png"
-                alt="Pokemon Game Frontend"
+                alt={t("projects.pokemonGameFrontend")}
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokefront")}
               />
               <img
                 src="/assets/projects-icons/pokemonbackend.png"
-                alt="Pokemon Game Backend"
+                alt={t("projects.pokemonGameBackend")}
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokemonbackend")}
               />
               <img
                 src="/assets/projects-icons/e-commerceapi.webp"
-                alt="E-Commerce API"
+                alt={t("projects.eCommerceAPI")}
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("ecommerce")}
               />
               <img
                 src="/assets/projects-icons/moviediary.png"
-                alt="Moviediary"
+                alt={t("projects.movieDiary")}
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("moviediary")}
               />
@@ -87,37 +82,37 @@ const Projects = () => {
             <div className="marquee-group gap-16 sm:gap-20 md:gap-24 overflow-visible">
               <img
                 src="/assets/projects-icons/inclusivetripfrontend.webp"
-                alt="Inclusive Trip Frontend"
+                alt={t("projects.inclusiveTripFrontend")}
                 className="h-56 sm:h-64 md:h-80 w-auto  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivetrip")}
               />
               <img
                 src="/assets/projects-icons/inclusivebackend.webp"
-                alt="Inclusive Trip Backend"
+                alt={t("projects.inclusiveTripBackend")}
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("inclusivebackend")}
               />
               <img
                 src="/assets/projects-icons/pokefront.png"
-                alt="Pokemon Game Frontend"
+                alt={t("projects.pokemonGameFrontend")}
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokefront")}
               />
               <img
                 src="/assets/projects-icons/pokemonbackend.png"
-                alt="Pokemon Game Backend"
+                alt={t("projects.pokemonGameBackend")}
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("pokemonbackend")}
               />
               <img
                 src="/assets/projects-icons/e-commerceapi.webp"
-                alt="E-Commerce API"
+                alt={t("projects.eCommerceAPI")}
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("ecommerce")}
               />
               <img
                 src="/assets/projects-icons/moviediary.png"
-                alt="Moviediary"
+                alt={t("projects.movieDiary")}
                 className="h-56 sm:h-64 md:h-80 w-auto filter  transition-all duration-300 hover:scale-125 cursor-pointer"
                 onClick={() => handleProjectClick("moviediary")}
               />
@@ -137,14 +132,12 @@ const Projects = () => {
             <div className="text-center">
               <div className="mb-4">
                 <h3 className="text-xl font-semibold text-white">
-                  Redirect to Project
+                  {t("projects.redirectTitle")}
                 </h3>
               </div>
 
               <div className="py-4">
-                <p className="text-gray-300">
-                  You are trying to open the following project:
-                </p>
+                <p className="text-gray-300">{t("projects.redirectMessage")}</p>
                 <p className="text-teal-400 text-sm mt-2">
                   {projectLinks[currentProject]}
                 </p>
@@ -155,13 +148,13 @@ const Projects = () => {
                   onClick={() => setModalOpen(false)}
                   className="px-4 py-2 rounded bg-gray-700 text-white hover:bg-gray-600 transition-colors"
                 >
-                  Back
+                  {t("projects.backButton")}
                 </button>
                 <button
                   onClick={handleConfirm}
                   className="px-4 py-2 rounded bg-teal-600 text-white hover:bg-teal-500 transition-colors"
                 >
-                  OK
+                  {t("projects.okButton")}
                 </button>
               </div>
             </div>

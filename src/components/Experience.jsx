@@ -1,46 +1,52 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="experience" className="relative text-white py-16 min-h-screen">
       <div className="max-w-6xl mx-auto px-6 pb-16 relative z-10">
         <p className="text-teal-500 text-center uppercase font-semibold mb-2">
-          What I Do
+          {t("experience.whatIDo")}
         </p>
-        <h2 className="text-3xl font-bold text-center">My Skillset</h2>
+        <h2 className="text-3xl font-bold text-center">
+          {t("experience.mySkillset")}
+        </h2>
         <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg hover:shadow-lg transition border border-gray-700">
-            <h3 className="text-xl font-semibold mb-2">Frontend Development</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              {t("experience.frontendDevelopment")}
+            </h3>
             <p className="text-gray-300 text-sm">
-              I build websites and web applications using modern technologies
-              like React, ThreeJS and Tailwind CSS.
+              {t("experience.frontendDescription")}
             </p>
           </div>
           <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg hover:shadow-lg transition border border-gray-700">
-            <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              {t("experience.backendDevelopment")}
+            </h3>
             <p className="text-gray-300 text-sm">
-              I develop server-side applications using Node.js, Express,
-              PostgreSQL and MongoDB.
+              {t("experience.backendDescription")}
             </p>
           </div>
           <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg hover:shadow-lg transition border border-gray-700">
-            <h3 className="text-xl font-semibold mb-2">Web Design</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              {t("experience.webDesign")}
+            </h3>
             <p className="text-gray-300 text-sm">
-              I design websites and web applications that are user friendly and
-              visually appealing.
+              {t("experience.webDesignDescription")}
             </p>
           </div>
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold">Development Skills</h3>
+          <h3 className="text-2xl font-bold">
+            {t("experience.developmentSkills")}
+          </h3>
           <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
           <p className="text-gray-300 mb-6">
-            As a MERN and PERN stack developer with a strong understanding of
-            backend architecture, I build dynamic, scalable web applications. My
-            focus is on creating seamless user experiences with high performance
-            and efficiency, leveraging modern technologies to deliver robust,
-            full-stack solutions.
+            {t("experience.developmentSkillsDescription")}
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
@@ -137,14 +143,12 @@ const Experience = () => {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold">Web Design Skills</h3>
+          <h3 className="text-2xl font-bold">
+            {t("experience.webDesignSkills")}
+          </h3>
           <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
           <p className="text-gray-300 mb-6">
-            As a Full-Stack Web Developer, my main focus is on building
-            functional and efficient applications. While I wouldn't call myself
-            a professional web designer, I have worked with various design tools
-            and technologies to create visually appealing and user-friendly
-            interfaces. Some of the tools I have experience with include:
+            {t("experience.webDesignSkillsDescription")}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">
@@ -178,17 +182,12 @@ const Experience = () => {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold">Technical Skills & Tools </h3>
+          <h3 className="text-2xl font-bold">
+            {t("experience.technicalSkills")}
+          </h3>
           <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
           <p className="text-gray-300 mb-6">
-            As a Full-Stack Web Developer, I work with a variety of tools and
-            technologies to build, deploy, and maintain applications. My skill
-            set extends beyond coding—I also have experience with system
-            administration, development workflows, and agile methodologies. With
-            these skills, I ensure smooth deployments, efficient development
-            processes, and well-managed systems. I thrive in agile environments
-            and continuously seek ways to optimize workflows and collaboration.
-            Here are some of the key technologies and practices I use:
+            {t("experience.technicalSkillsDescription")}
           </p>
 
           <div className="block lg:hidden">
@@ -333,12 +332,12 @@ const Experience = () => {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold">Skills in Progress</h3>
+          <h3 className="text-2xl font-bold">
+            {t("experience.skillsInProgress")}
+          </h3>
           <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
           <p className="text-gray-300 mb-6">
-            As a developer, I'm always eager to expand my knowledge and explore
-            new technologies. Currently, I'm focusing on improving my skills in
-            the following areas:
+            {t("experience.skillsInProgressDescription")}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-md mx-auto">
             <div className="text-center bg-gray-800 bg-opacity-50 p-3 rounded-lg">

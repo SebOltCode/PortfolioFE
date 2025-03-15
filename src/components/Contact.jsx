@@ -1,7 +1,9 @@
 import React, { useState, useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -19,10 +21,10 @@ const Contact = () => {
   const API_URL = import.meta.env.VITE_API_URL;
   const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
   const options = [
-    "Job Opportunities",
-    "I have an idea—let's build something awesome!",
-    "Let's connect and share ideas!",
-    "Something else? Let me know!",
+    t("contact.jobOpportunities"),
+    t("contact.buildSomething"),
+    t("contact.shareIdeas"),
+    t("contact.somethingElse"),
   ];
 
   const handleChange = (e) => {
@@ -42,14 +44,14 @@ const Contact = () => {
     setFormData({
       ...formData,
       selectedOptions: updatedOptions,
-      requestResume: updatedOptions.includes("Job Opportunities")
+      requestResume: updatedOptions.includes(t("contact.jobOpportunities"))
         ? formData.requestResume
         : false,
     });
   };
 
   const handleResumeCheckboxChange = (e) => {
-    if (formData.selectedOptions.includes("Job Opportunities")) {
+    if (formData.selectedOptions.includes(t("contact.jobOpportunities"))) {
       setFormData({ ...formData, requestResume: e.target.checked });
     }
   };
@@ -65,19 +67,19 @@ const Contact = () => {
     setError(null);
 
     if (!formData.firstName || !formData.email || !formData.message) {
-      setError("Please fill out all required fields.");
+      setError(t("contact.errorFillFields"));
       setLoading(false);
       return;
     }
 
     if (formData.selectedOptions.length === 0) {
-      setError("Please select at least one topic.");
+      setError(t("contact.errorSelectTopic"));
       setLoading(false);
       return;
     }
 
     if (!captchaToken) {
-      setError("Please complete the reCAPTCHA verification.");
+      setError(t("contact.errorCaptcha"));
       setLoading(false);
       return;
     }
@@ -99,9 +101,7 @@ const Contact = () => {
       const data = await response.json();
 
       if (response.ok) {
-        setSuccess(
-          "Your message has been sent successfully! I'll get back to you soon."
-        );
+        setSuccess(t("contact.successMessage"));
 
         setFormData({
           firstName: "",
@@ -116,11 +116,11 @@ const Contact = () => {
         if (recaptchaRef.current) recaptchaRef.current.reset();
         setCaptchaToken(null);
       } else {
-        setError(data.error || "Failed to send message. Please try again.");
+        setError(data.error || t("contact.errorSendMessage"));
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      setError("Network error. Please check your connection and try again.");
+      setError(t("contact.errorNetwork"));
     }
 
     setLoading(false);
@@ -129,9 +129,11 @@ const Contact = () => {
   return (
     <section id="contact" className="relative text-white py-16 min-h-screen">
       <div className="max-w-xl mx-auto px-6 relative z-10">
-        <h2 className="text-3xl font-bold text-center mb-8">Let's Connect!</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">
+          {t("contact.title")}
+        </h2>
         <p className="text-gray-300 text-center mb-8">
-          Have questions or want to work together? Feel free to reach out!
+          {t("contact.subtitle")}
         </p>
 
         <form
@@ -144,7 +146,7 @@ const Contact = () => {
                 htmlFor="firstName"
                 className="block text-sm font-medium mb-1"
               >
-                First Name *
+                {t("contact.firstName")} *
               </label>
               <input
                 type="text"
@@ -160,7 +162,7 @@ const Contact = () => {
                 htmlFor="lastName"
                 className="block text-sm font-medium mb-1"
               >
-                Last Name
+                {t("contact.lastName")}
               </label>
               <input
                 type="text"
@@ -175,7 +177,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label htmlFor="email" className="block text-sm font-medium mb-1">
-                Email *
+                {t("contact.email")} *
               </label>
               <input
                 type="email"
@@ -188,7 +190,7 @@ const Contact = () => {
             </div>
             <div>
               <label htmlFor="phone" className="block text-sm font-medium mb-1">
-                Phone
+                {t("contact.phone")}
               </label>
               <input
                 type="tel"
@@ -202,7 +204,7 @@ const Contact = () => {
 
           <div>
             <label htmlFor="message" className="block text-sm font-medium mb-1">
-              Message *
+              {t("contact.message")} *
             </label>
             <textarea
               id="message"
@@ -216,7 +218,7 @@ const Contact = () => {
 
           <div>
             <p className="block text-sm font-medium mb-2">
-              What would you like to discuss? *
+              {t("contact.discuss")} *
             </p>
             <div className="space-y-2">
               {options.map((option) => (
@@ -237,7 +239,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {formData.selectedOptions.includes("Job Opportunities") && (
+          {formData.selectedOptions.includes(t("contact.jobOpportunities")) && (
             <div className="flex items-start">
               <input
                 type="checkbox"
@@ -247,7 +249,7 @@ const Contact = () => {
                 className="mt-1 mr-2"
               />
               <label htmlFor="requestResume" className="text-sm">
-                I'd like to receive a copy of your resume
+                {t("contact.requestResume")}
               </label>
             </div>
           )}
@@ -267,7 +269,7 @@ const Contact = () => {
               disabled={loading}
               className="bg-teal-500 text-white py-2 px-8 rounded-md hover:bg-teal-600 transition-colors disabled:opacity-50"
             >
-              {loading ? "Sending..." : "Submit"}
+              {loading ? t("contact.sending") : t("contact.submit")}
             </button>
           </div>
 

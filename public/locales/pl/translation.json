@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "title": "Portfolio",
+    "home": "Strona główna",
+    "experience": "Doświadczenie",
+    "projects": "Projekty",
+    "about": "O mnie",
+    "contact": "Kontakt"
+  },
+
+  "home": {
+    "profilePhotoAlt": "Zdjęcie profilowe",
+    "welcomeMessage": "Witamy na mojej stronie portfolio!",
+    "introduction": "Cześć, jestem Sebastian, zmieniający karierę i pasjonat Full-Stack Web Developer. To jest moja strona portfolio, na której nie tylko prezentuję swoje umiejętności techniczne i miękkie, ale także dzielę się trochę o sobie. Moim celem jest dać potencjalnym pracodawcom pierwsze wrażenie zarówno moich umiejętności, jak i osobowości. Zachęcam do zapoznania się z moimi projektami, poznania mojej drogi i nie wahaj się skontaktować, jeśli chcesz się połączyć!"
+  },
+
+  "experience": {
+    "whatIDo": "Co robię",
+    "mySkillset": "Moje umiejętności",
+    "frontendDevelopment": "Rozwój Frontend",
+    "frontendDescription": "Tworzę strony internetowe i aplikacje internetowe przy użyciu nowoczesnych technologii, takich jak React, ThreeJS i Tailwind CSS.",
+    "backendDevelopment": "Rozwój Backend",
+    "backendDescription": "Tworzę aplikacje po stronie serwera przy użyciu Node.js, Express, PostgreSQL i MongoDB.",
+    "webDesign": "Projektowanie stron internetowych",
+    "webDesignDescription": "Projektuję strony internetowe i aplikacje internetowe, które są przyjazne dla użytkownika i wizualnie atrakcyjne.",
+    "developmentSkills": "Umiejętności rozwoju",
+    "developmentSkillsDescription": "Jako deweloper stosu MERN i PERN z silnym zrozumieniem architektury backendu, tworzę dynamiczne, skalowalne aplikacje internetowe. Skupiam się na tworzeniu płynnych doświadczeń użytkownika o wysokiej wydajności i efektywności, wykorzystując nowoczesne technologie do dostarczania solidnych, pełnych rozwiązań stosu.",
+    "webDesignSkills": "Umiejętności projektowania stron internetowych",
+    "webDesignSkillsDescription": "Jako Full-Stack Web Developer, moim głównym celem jest budowanie funkcjonalnych i efektywnych aplikacji. Chociaż nie nazwałbym siebie profesjonalnym projektantem stron internetowych, pracowałem z różnymi narzędziami i technologiami projektowania, aby tworzyć wizualnie atrakcyjne i przyjazne dla użytkownika interfejsy. Niektóre z narzędzi, z którymi mam doświadczenie, to:",
+    "technicalSkills": "Umiejętności techniczne i narzędzia",
+    "technicalSkillsDescription": "Jako Full-Stack Web Developer, pracuję z różnorodnymi narzędziami i technologiami do budowania, wdrażania i utrzymywania aplikacji. Moje umiejętności wykraczają poza kodowanie—mam również doświadczenie w administracji systemami, przepływach pracy w rozwoju i metodykach zwinnych. Dzięki tym umiejętnościom zapewniam płynne wdrożenia, efektywne procesy rozwoju i dobrze zarządzane systemy. Dobrze czuję się w środowiskach zwinnych i ciągle szukam sposobów na optymalizację przepływów pracy i współpracy. Oto niektóre z kluczowych technologii i praktyk, których używam:",
+    "skillsInProgress": "Umiejętności w trakcie rozwoju",
+    "skillsInProgressDescription": "Jako deweloper, zawsze chętnie poszerzam swoją wiedzę i eksploruję nowe technologie. Obecnie skupiam się na doskonaleniu moich umiejętności w następujących obszarach:"
+  },
+
+  "projects": {
+    "title": "Moje projekty",
+    "description": "Na tej stronie prezentuję projekty, nad którymi pracowałem podczas mojego bootcampu programistycznego. Większość z tych projektów została stworzona w ciągu zaledwie jednego tygodnia, z wyjątkiem Inclusive Trip, który był moim projektem końcowym, gdzie rozwijałem zarówno frontend, jak i backend. Te projekty są na poziomie początkującym, ale pokazują, ile nauczyłem się w ciągu zaledwie czterech miesięcy i jak szybko rozwijałem się jako deweloper. Każdy projekt odzwierciedla moją zdolność do stosowania nowych koncepcji, pracy pod presją czasu i ciągłego doskonalenia moich umiejętności.",
+    "inclusiveTripFrontend": "Frontend Inclusive Trip",
+    "inclusiveTripBackend": "Backend Inclusive Trip",
+    "pokemonGameFrontend": "Frontend Gry Pokemon",
+    "pokemonGameBackend": "Backend Gry Pokemon",
+    "eCommerceAPI": "API E-Commerce",
+    "movieDiary": "Dziennik Filmowy",
+    "redirectTitle": "Przekierowanie do projektu",
+    "redirectMessage": "Próbujesz otworzyć następujący projekt:",
+    "backButton": "Wstecz",
+    "okButton": "OK"
+  },
+
+  "about": {
+    "title": "Od turbin wiatrowych do rozwoju stron internetowych – Moja podróż",
+    "description": "Cześć! Jestem Sebastian – entuzjasta IT, samozwańczy maniak technologii i ktoś, kto uwielbia dobre wyzwanie. Moja podróż do rozwoju stron internetowych nie była dokładnie prosta. W rzeczywistości, zanim zacząłem kodować, spędziłem lata pracując w kontroli jakości, elektronice i wsparciu IT – a nawet miałem krótki epizod studiowania nauk nautycznych (tak, statki!). Ale jedna rzecz zawsze była jasna: mam pasję do technologii i rozwiązywania problemów. Niezależnie od tego, czy chodzi o debugowanie kodu, rozwiązywanie problemów sprzętowych, czy znalezienie sposobu, aby mój kot przestał kraść moje krzesło – uwielbiam znajdować rozwiązania. Poza technologią jestem osobą towarzyską i ciekawą, która lubi podróżować, grać w gry i uprawiać sport. Możesz mnie znaleźć grającego w koszykówkę, pływającego lub majsterkującego przy projektach DIY, gdy nie jestem pochłonięty kodowaniem. Dobrze czuję się w środowiskach zespołowych, wierzę w naukę przez całe życie i zawsze staram się wnosić pozytywne i otwarte nastawienie, gdziekolwiek się pojawię. Więc jeśli szukasz zmotywowanego, elastycznego i zabawnego członka zespołu, który chętnie się rozwija, połączmy się!"
+  },
+
+  "contact": {
+    "title": "Połączmy się!",
+    "subtitle": "Masz pytania lub chcesz współpracować? Skontaktuj się ze mną!",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "Email",
+    "phone": "Telefon",
+    "message": "Wiadomość",
+    "discuss": "O czym chciałbyś porozmawiać?",
+    "jobOpportunities": "Oferty pracy",
+    "buildSomething": "Mam pomysł—zbudujmy coś niesamowitego!",
+    "shareIdeas": "Połączmy się i podzielmy się pomysłami!",
+    "somethingElse": "Coś innego? Daj mi znać!",
+    "requestResume": "Chciałbym otrzymać kopię twojego CV",
+    "sending": "Wysyłanie...",
+    "submit": "Wyślij",
+    "errorFillFields": "Proszę wypełnić wszystkie wymagane pola.",
+    "errorSelectTopic": "Proszę wybrać przynajmniej jeden temat.",
+    "errorCaptcha": "Proszę ukończyć weryfikację reCAPTCHA.",
+    "successMessage": "Twoja wiadomość została pomyślnie wysłana! Wkrótce się odezwę.",
+    "errorSendMessage": "Nie udało się wysłać wiadomości. Proszę spróbować ponownie.",
+    "errorNetwork": "Błąd sieci. Proszę sprawdzić połączenie i spróbować ponownie."
+  }
+}
