@@ -1,12 +1,18 @@
-// filepath: c:\wbs-exercises\Portfolio\my-portfolio\tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        starjedi: ["starjedi", "sans-serif"],
+        limelight: ["limelight", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }

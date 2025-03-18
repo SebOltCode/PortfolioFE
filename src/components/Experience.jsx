@@ -7,10 +7,10 @@ const Experience = () => {
   return (
     <section id="experience" className="relative text-white py-16 min-h-screen">
       <div className="max-w-6xl mx-auto px-6 pb-16 relative z-10">
-        <p className="text-teal-500 text-center uppercase font-semibold mb-2">
+        <p className="text-gray-900 dark:text-teal-500 text-center uppercase font-semibold mb-2">
           {t("experience.whatIDo")}
         </p>
-        <h2 className="text-3xl font-bold text-center">
+        <h2 className="text-3xl font-bold text-center text-slate-800 dark:text-white">
           {t("experience.mySkillset")}
         </h2>
         <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -41,11 +41,11 @@ const Experience = () => {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold">
+          <h3 className="text-2xl font-bold text-slate-800 dark:text-white">
             {t("experience.developmentSkills")}
           </h3>
           <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
-          <p className="text-gray-300 mb-6">
+          <p className="text-slate-900 dark:text-gray-300 mb-6">
             {t("experience.developmentSkillsDescription")}
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -143,11 +143,11 @@ const Experience = () => {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold">
+          <h3 className="text-2xl font-bold text-slate-800 dark:text-white">
             {t("experience.webDesignSkills")}
           </h3>
           <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
-          <p className="text-gray-300 mb-6">
+          <p className="text-slate-900 dark:text-gray-300 mb-6">
             {t("experience.webDesignSkillsDescription")}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
@@ -182,11 +182,11 @@ const Experience = () => {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold">
+          <h3 className="text-2xl font-bold text-slate-800 dark:text-white">
             {t("experience.technicalSkills")}
           </h3>
           <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
-          <p className="text-gray-300 mb-6">
+          <p className="text-slate-900 dark:text-gray-300 mb-6">
             {t("experience.technicalSkillsDescription")}
           </p>
 
@@ -332,11 +332,11 @@ const Experience = () => {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold">
+          <h3 className="text-2xl font-bold text-slate-800 dark:text-white">
             {t("experience.skillsInProgress")}
           </h3>
           <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
-          <p className="text-gray-300 mb-6">
+          <p className="text-slate-900 dark:text-gray-300 mb-6">
             {t("experience.skillsInProgressDescription")}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-md mx-auto">

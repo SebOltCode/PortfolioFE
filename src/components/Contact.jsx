@@ -129,15 +129,15 @@ const Contact = () => {
   return (
     <section id="contact" className="relative text-white py-16 min-h-screen">
       <div className="max-w-xl mx-auto px-6 relative z-10">
-        <h2 className="text-3xl font-bold text-center mb-8">
+        <h2 className="text-slate-800 dark:text-white text-3xl font-bold text-center mb-8">
           {t("contact.title")}
         </h2>
-        <p className="text-gray-300 text-center mb-8">
+        <p className="text-slate-800 dark:text-white text-center mb-8">
           {t("contact.subtitle")}
         </p>
 
         <form
-          className="bg-gray-800 bg-opacity-70 p-8 rounded-lg shadow-lg space-y-6"
+          className="bg-gray-600 dark:bg-gray-800 bg-opacity-70 p-8 rounded-lg shadow-lg space-y-6"
           onSubmit={handleSubmit}
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -153,7 +153,7 @@ const Contact = () => {
                 id="firstName"
                 value={formData.firstName}
                 onChange={handleChange}
-                className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded text-white"
+                className="w-full px-3 py-2 bg-gray-500 dark:bg-gray-700 border border-gray-600 rounded text-white"
                 required
               />
             </div>
@@ -169,7 +169,7 @@ const Contact = () => {
                 id="lastName"
                 value={formData.lastName}
                 onChange={handleChange}
-                className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded text-white"
+                className="w-full px-3 py-2 bg-gray-500 dark:bg-gray-700 border border-gray-600 rounded text-white"
               />
             </div>
           </div>
@@ -184,7 +184,7 @@ const Contact = () => {
                 id="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded text-white"
+                className="w-full px-3 py-2 bg-gray-500 dark:bg-gray-700 border border-gray-600 rounded text-white"
                 required
               />
             </div>
@@ -197,7 +197,7 @@ const Contact = () => {
                 id="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded text-white"
+                className="w-full px-3 py-2 bg-gray-500 dark:bg-gray-700 border border-gray-600 rounded text-white"
               />
             </div>
           </div>
@@ -211,7 +211,7 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               rows="5"
-              className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded text-white"
+              className="w-full px-3 py-2 bg-gray-500 dark:bg-gray-700 border border-gray-600 rounded text-white"
               required
             ></textarea>
           </div>

@@ -45,7 +45,8 @@
     "redirectTitle": "Omdirigering til prosjekt",
     "redirectMessage": "Du prøver å åpne følgende prosjekt:",
     "backButton": "Tilbake",
-    "okButton": "OK"
+    "okButton": "OK",
+    "swipeHint": "Sveip til venstre eller høyre for å se flere prosjekter."
   },
 
   "about": {

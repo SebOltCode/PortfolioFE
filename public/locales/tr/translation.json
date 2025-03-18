@@ -45,7 +45,8 @@
     "redirectTitle": "Projeye Yönlendirme",
     "redirectMessage": "Aşağıdaki projeyi açmaya çalışıyorsunuz:",
     "backButton": "Geri",
-    "okButton": "Tamam"
+    "okButton": "Tamam",
+    "swipeHint": "Daha fazla proje görmek için sola veya sağa kaydırın."
   },
 
   "about": {
