@@ -18,10 +18,23 @@ function App() {
   }, [theme]);
 
   return (
-    <div className="w-full min-h-screen overflow-x-hidden relative bg-[url('/assets/light-background.jpg')] dark:bg-[url('/assets/background.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
+    <div className="relative w-full min-h-screen overflow-x-hidden">
+      {/* Fixierter Hintergrund */}
+      <div
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat z-[-1]"
+        style={{
+          backgroundImage:
+            theme === "dark"
+              ? "url('/assets/background.jpg')"
+              : "url('/assets/light-background.jpg')",
+        }}
+      ></div>
+
+      {/* Overlay, falls gewünscht */}
+      <div className="absolute inset-0 bg-black opacity-40 z-0 pointer-events-none"></div>
+
       <Navbar theme={theme} setTheme={setTheme} />
 
-      <div className="absolute inset-0 bg-black opacity-40 dark:opacity-40 z-0 pointer-events-none"></div>
       <main className="w-full pt-16 relative z-10">
         <Home />
         <Experience />
