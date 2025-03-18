@@ -45,7 +45,8 @@
     "redirectTitle": "Reindirizzamento al Progetto",
     "redirectMessage": "Stai cercando di aprire il seguente progetto:",
     "backButton": "Indietro",
-    "okButton": "OK"
+    "okButton": "OK",
+    "swipeHint": "Scorri a sinistra o a destra per vedere più progetti."
   },
 
   "about": {

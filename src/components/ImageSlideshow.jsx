@@ -14,15 +14,13 @@ const ImageSlideshow = ({ images }) => {
 
       timerRef.current = setTimeout(() => {
         setPrevIndex(currentIndex);
-
         const nextIndex = (currentIndex + 1) % images.length;
-
         setIsTransitioning(true);
 
         transitionTimerRef.current = setTimeout(() => {
           setCurrentIndex(nextIndex);
           setIsTransitioning(false);
-        }, 1000); //
+        }, 1000);
       }, 4000);
     };
 
@@ -35,36 +33,19 @@ const ImageSlideshow = ({ images }) => {
   }, [currentIndex, images.length]);
 
   return (
-    <div className="image-slideshow-container">
-      <div className="slideshow-image">
+    <div className="relative w-full max-w-[900px] mx-auto aspect-square min-h-[240px] border-4 border-gray-300 dark:border-gray-700 shadow-lg rounded-full overflow-hidden">
+      <div className="absolute inset-0">
         <img
           src={images[currentIndex]}
           alt={`Profile ${currentIndex + 1}`}
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            opacity: isTransitioning ? 0 : 1,
-            transition: "opacity 1s ease-in-out",
-            zIndex: 2,
-          }}
+          className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 z-20 rounded-full"
+          style={{ opacity: isTransitioning ? 0 : 1 }}
         />
 
         <img
           src={images[prevIndex]}
           alt={`Profile ${prevIndex + 1}`}
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            zIndex: 1,
-          }}
+          className="absolute inset-0 w-full h-full object-cover z-10 rounded-full"
         />
       </div>
     </div>
