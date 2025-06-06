@@ -11,7 +11,7 @@
   "home": {
     "profilePhotoAlt": "Profilfoto",
     "welcomeMessage": "Willkommen auf meiner Portfolio-Website!",
-    "introduction": "Hey, ich bin Sebastian – Quereinsteiger und leidenschaftlicher Full-Stack-Webentwickler. Auf dieser Portfolio-Website präsentiere ich meine technischen Fähigkeiten und gebe auch einen kleinen Einblick in meine Person. Mein Ziel? Potenziellen Arbeitgebern einen ersten Eindruck von meinem Können und meiner Persönlichkeit zu vermitteln – und mich mit anderen IT-Enthusiasten zu vernetzen, um Wissen, Erfahrungen und Ideen auszutauschen. Schau dich gerne um, entdecke meine Projekte und erfahre mehr über meinen Weg. Und wenn du Lust hast, dich auszutauschen oder in Kontakt zu treten – zögere nicht, mich zu kontaktieren!"
+    "introduction": "Hallo, ich bin Sebastian – Quereinsteiger mit einer Leidenschaft für Technik, Webentwicklung und Informationssicherheit. Derzeit bilde ich mich umfassend im Bereich Informationssicherheitsmanagement weiter und erwerbe unter anderem die Zertifizierungen zum ISO/IEC 27001 Lead Implementer, Lead Auditor, BSI-Grundschutzpraktiker sowie im Business Continuity Management (BCM).Diese Portfolio-Website gibt einen Einblick in meinen bisherigen Werdegang, meine Projekte und meine Fähigkeiten – sowohl im Bereich Full-Stack Webentwicklung als auch in meiner aktuellen Spezialisierung auf IT-Sicherheitsmanagement und Compliance. Mein Ziel ist es, Organisationen dabei zu unterstützen, ihre Informationswerte effektiv zu schützen und die Anforderungen an Datenschutz und Resilienz systematisch umzusetzen.Schau dich gern um, lerne mehr über meinen Weg – und kontaktiere mich, wenn du Interesse an einem Austausch hast!"
   },
 
   "experience": {
@@ -23,10 +23,22 @@
     "backendDescription": "Für die serverseitige Entwicklung kommen Node.js, Express, PostgreSQL und MongoDB zum Einsatz.",
     "webDesign": "Webdesign",
     "webDesignDescription": "Bei der Gestaltung von Websites und Webanwendungen liegt der Fokus auf Benutzerfreundlichkeit und ansprechendem Design.",
-    "developmentSkills": "Entwicklungsfähigkeiten",
+    "informationSecurity": "Informationssicherheit",
+    "informationSecurityDescription": "Als zertifizierter Informationssicherheitsbeauftragter nach BSI und ISO 27001 unterstütze ich Organisationen beim Aufbau und der Implementierung von Informationssicherheits-managementsystemen.",
+    "developmentSkills": "Entwicklerfähigkeiten",
     "developmentSkillsDescription": "Als MERN- und PERN-Stack-Entwickler mit einem fundierten Verständnis der Backend-Architektur baue ich dynamische, skalierbare Webanwendungen. Mein Fokus liegt auf der Schaffung nahtloser Benutzererfahrungen mit hoher Leistung und Effizienz, indem ich moderne Technologien nutze, um robuste Full-Stack-Lösungen zu liefern.",
     "webDesignSkills": "Webdesign-Fähigkeiten",
     "webDesignSkillsDescription": "Als Full-Stack Web-Entwickler liegt mein Hauptfokus auf der Erstellung funktionaler und effizienter Anwendungen. Obwohl ich mich nicht als professionellen Webdesigner bezeichne, habe ich mit verschiedenen Design-Tools und Technologien gearbeitet, um visuell ansprechende und benutzerfreundliche Oberflächen zu erstellen. Einige der Tools, mit denen ich Erfahrung habe, sind:",
+    "informationSecuritySkills": "Informationssicherheits-Kompetenzen",
+    "informationSecuritySkillsDescription": "Mit meiner Spezialisierung auf Informationssicherheitsmanagement und Compliance bringe ich fundierte Kenntnisse in der Umsetzung von Sicherheitsstandards mit. Meine Qualifikationen umfassen:",
+    "certifications": "Zertifizierungen",
+    "currentCertifications": "Bereits erreichte Zertifizierungen:",
+    "certificationISO": "Informationssicherheitsbeauftragter nach BSI und ISO 27001",
+    "upcomingCertifications": "Derzeit in Weiterbildung (Abschluss Oktober 2025):",
+    "certificationLeadImplementer": "ISO 27001 Lead Implementer",
+    "certificationLeadAuditor": "ISO 27001 Lead Auditor",
+    "certificationBSI": "BSI IT-Grundschutzpraktiker",
+    "certificationBCM": "Business Continuity Management (BCM)",
     "technicalSkills": "Technische Fähigkeiten & Werkzeuge",
     "technicalSkillsDescription": "Als Full-Stack Web-Entwickler arbeite ich mit einer Vielzahl von Werkzeugen und Technologien, um Anwendungen zu bauen, bereitzustellen und zu warten. Meine Fähigkeiten gehen über das Programmieren hinaus – ich habe auch Erfahrung in der Systemadministration, Entwicklungsabläufen und agilen Methoden. Mit diesen Fähigkeiten stelle ich sicher, dass Bereitstellungen reibungslos verlaufen, Entwicklungsprozesse effizient sind und Systeme gut verwaltet werden. Ich gedeihe in agilen Umfeldern und suche kontinuierlich nach Wegen, Arbeitsabläufe und Zusammenarbeit zu optimieren. Hier sind einige der wichtigsten Technologien und Praktiken, die ich benutze:",
     "skillsInProgress": "Fähigkeiten in Arbeit",
@@ -50,8 +62,8 @@
   },
 
   "about": {
-    "title": "Von Windturbinen zur Web-Entwicklung – Mein Weg",
-    "description": "Hey, ich bin Sebastian – IT-Enthusiast, Technik-Nerd und immer auf der Suche nach neuen Herausforderungen. Mein Weg in die Webentwicklung war alles andere als klassisch. Bevor ich mit dem Programmieren angefangen habe, war ich jahrelang in der Qualitätssicherung, Elektronik und im IT-Support tätig – und habe sogar kurz nautische Wissenschaften studiert (ja, Schiffe!). Doch eins war immer klar: Meine Leidenschaft gilt der Technik und dem Lösen von Problemen. Egal, ob es darum geht, Code zu debuggen, Hardware zu reparieren oder meiner Katze beizubringen, nicht ständig meinen Stuhl zu klauen – ich liebe es, Dinge zu verbessern und Lösungen zu finden. Abseits der Technik bin ich ein geselliger und neugieriger Mensch, der gerne reist, spielt und Sport treibt. Wenn ich nicht gerade in Code versinke, findet man mich vielleicht beim Basketball, Schwimmen oder beim Tüfteln an DIY-Projekten. Ich arbeite gerne im Team, glaube an lebenslanges Lernen und bringe immer eine offene und positive Einstellung mit. Wenn du also nach einem motivierten, anpassungsfähigen und humorvollen Teamplayer suchst, der gerne dazulernt – lass uns vernetzen!"
+    "title": "Von Windturbinen zur Informationssicherheit – Mein Weg",
+    "description": "Hey! Ich bin Sebastian – IT-begeistert, technikaffin und jemand, der Herausforderungen liebt. Mein Weg in die Welt der Informationssicherheit war alles andere als geradlinig: Zuvor habe ich viele Jahre in der Qualitätssicherung, Elektronik und im IT-Support gearbeitet – und sogar eine Zeit lang Nautik studiert (ja, wirklich – Schiffe!). Doch eins war immer klar: Meine Leidenschaft gilt der Technik und dem Lösen von Problemen. Ob es um IT-Sicherheitskonzepte, Risikobewertungen, Auditvorbereitungen oder technische Fehleranalysen geht – ich liebe es, Strukturen zu verstehen und Lösungen zu entwickeln. Derzeit bilde ich mich umfassend im Bereich Informationssicherheitsmanagement weiter (ISO/IEC 27001 Lead Implementer & Auditor, BSI-Grundschutzpraktiker, BCM) und bringe dabei sowohl technische als auch organisatorische Perspektiven zusammen. Abseits der IT bin ich ein sozialer und neugieriger Mensch. Ich reise gern, zocke, mache Sport – und tüftle an DIY-Projekten. Teamarbeit, lebenslanges Lernen und eine positive, lösungsorientierte Haltung gehören für mich ganz selbstverständlich dazu. Wenn du also jemanden suchst, der motiviert, anpassungsfähig und engagiert ist – dann freue ich mich auf den Austausch!"
   },
 
   "contact": {

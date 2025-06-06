@@ -13,7 +13,17 @@ const Experience = () => {
         <h2 className="text-3xl font-bold text-center text-slate-800 dark:text-white">
           {t("experience.mySkillset")}
         </h2>
-        <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+        {/* Updated Skills Grid - Information Security added */}
+        <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg hover:shadow-lg transition border border-gray-700">
+            <h3 className="text-xl font-semibold mb-2">
+              {t("experience.informationSecurity")}
+            </h3>
+            <p className="text-gray-300 text-sm">
+              {t("experience.informationSecurityDescription")}
+            </p>
+          </div>
           <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg hover:shadow-lg transition border border-gray-700">
             <h3 className="text-xl font-semibold mb-2">
               {t("experience.frontendDevelopment")}
@@ -37,6 +47,79 @@ const Experience = () => {
             <p className="text-gray-300 text-sm">
               {t("experience.webDesignDescription")}
             </p>
+          </div>
+        </div>
+
+        {/* New Information Security Skills Section */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold text-slate-800 dark:text-white">
+            {t("experience.informationSecuritySkills")}
+          </h3>
+          <hr className="w-16 border-teal-500 border-t-2 mt-2 mb-6" />
+          <p className="text-slate-900 dark:text-gray-300 mb-6">
+            {t("experience.informationSecuritySkillsDescription")}
+          </p>
+
+          {/* Certifications Section with Badge */}
+          <div className="bg-gray-800 bg-opacity-50 p-6 rounded-lg mb-6">
+            <div className="flex flex-col lg:flex-row lg:items-center lg:gap-8">
+              {/* Certifications Content */}
+              <div className="flex-1">
+                <h4 className="text-xl font-semibold text-white mb-4">
+                  {t("experience.certifications")}
+                </h4>
+
+                {/* Current Certifications */}
+                <div className="mb-6">
+                  <h5 className="text-lg font-medium text-teal-400 mb-3">
+                    {t("experience.currentCertifications")}
+                  </h5>
+                  <div className="flex items-center text-gray-300">
+                    <div className="w-2 h-2 bg-teal-500 rounded-full mr-3"></div>
+                    <span>{t("experience.certificationISO")}</span>
+                  </div>
+                </div>
+
+                {/* Upcoming Certifications */}
+                <div>
+                  <h5 className="text-lg font-medium text-yellow-400 mb-3">
+                    {t("experience.upcomingCertifications")}
+                  </h5>
+                  <div className="space-y-2">
+                    <div className="flex items-center text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></div>
+                      <span>
+                        {t("experience.certificationLeadImplementer")}
+                      </span>
+                    </div>
+                    <div className="flex items-center text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></div>
+                      <span>{t("experience.certificationLeadAuditor")}</span>
+                    </div>
+                    <div className="flex items-center text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></div>
+                      <span>{t("experience.certificationBSI")}</span>
+                    </div>
+                    <div className="flex items-center text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></div>
+                      <span>{t("experience.certificationBCM")}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ISO 27001 Badge */}
+              <div className="mt-6 lg:mt-0 lg:min-w-0 lg:flex-shrink-0 lg:w-48 flex justify-center">
+                <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-36 lg:h-36 xl:w-40 xl:h-40">
+                  <img
+                    src="/assets/skills-icons/iso27001.jpg"
+                    alt="ISO 27001 Certified Badge"
+                    className="w-full h-full object-contain drop-shadow-lg"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

@@ -11,7 +11,7 @@
   "home": {
     "profilePhotoAlt": "Profile Photo",
     "welcomeMessage": "Welcome on my Portfolio Website!",
-    "introduction": "Hi, I’m Sebastian, a career changer and passionate Full-Stack Web Developer. This is my portfolio website, where I not only showcase my technical and soft skills, but also share a bit about myself. My goal is to give potential employers a first impression of both my skills and my personality. Feel free to explore my projects, learn more about my journey, and don’t hesitate to reach out if you’d like to connect!"
+    "introduction": "Hi,I’m Sebastian – a career changer with a passion for technology, web development, and information security. I’m currently undergoing comprehensive training in information security management and pursuing certifications as an ISO/IEC 27001 Lead Implementer, Lead Auditor, BSI IT-Grundschutz Practitioner, and in Business Continuity Management (BCM). This portfolio website offers an insight into my background, my projects, and my skill set – both in full-stack web development and in my current focus on IT security management and compliance. My goal is to help organizations protect their information assets and implement data protection and resilience requirements in a structured and effective way. Feel free to explore, learn more about my journey – and don’t hesitate to reach out if you’d like to connect!"
   },
 
   "experience": {
@@ -23,10 +23,22 @@
     "backendDescription": "I develop server-side applications using Node.js, Express, PostgreSQL and MongoDB.",
     "webDesign": "Web Design",
     "webDesignDescription": "I design websites and web applications that are user friendly and visually appealing.",
+    "informationSecurity": "Information Security",
+    "informationSecurityDescription": "As a certified Information Security Officer according to BSI and ISO 27001, I support organizations in building and implementing information security management systems.",
     "developmentSkills": "Development Skills",
     "developmentSkillsDescription": "As a MERN and PERN stack developer with a strong understanding of backend architecture, I build dynamic, scalable web applications. My focus is on creating seamless user experiences with high performance and efficiency, leveraging modern technologies to deliver robust, full-stack solutions.",
     "webDesignSkills": "Web Design Skills",
     "webDesignSkillsDescription": "As a Full-Stack Web Developer, my main focus is on building functional and efficient applications. While I wouldn't call myself a professional web designer, I have worked with various design tools and technologies to create visually appealing and user-friendly interfaces. Some of the tools I have experience with include:",
+    "informationSecuritySkills": "Information Security Competencies",
+    "informationSecuritySkillsDescription": "With my specialization in information security management and compliance, I bring solid expertise in implementing security standards. My qualifications include:",
+    "certifications": "Certifications",
+    "currentCertifications": "Current Certifications:",
+    "certificationISO": "Information Security Officer according to BSI and ISO 27001",
+    "upcomingCertifications": "Currently in Training (Completion 2025):",
+    "certificationLeadImplementer": "ISO 27001 Lead Implementer",
+    "certificationLeadAuditor": "ISO 27001 Lead Auditor",
+    "certificationBSI": "BSI IT-Grundschutz Practitioner",
+    "certificationBCM": "Business Continuity Management (BCM)",
     "technicalSkills": "Technical Skills & Tools",
     "technicalSkillsDescription": "As a Full-Stack Web Developer, I work with a variety of tools and technologies to build, deploy, and maintain applications. My skill set extends beyond coding—I also have experience with system administration, development workflows, and agile methodologies. With these skills, I ensure smooth deployments, efficient development processes, and well-managed systems. I thrive in agile environments and continuously seek ways to optimize workflows and collaboration. Here are some of the key technologies and practices I use:",
     "skillsInProgress": "Skills in Progress",
@@ -50,8 +62,8 @@
   },
 
   "about": {
-    "title": "From Wind Turbines to Web Development – My Journey",
-    "description": "Hey there! I'm Sebastian – an IT enthusiast, self-proclaimed tech geek, and someone who loves a good challenge. My journey into web development wasn't exactly straight out of a textbook. In fact, before I started coding, I spent years working in quality assurance, electronics, and IT support – and even had a brief stint studying nautical science (yes, ships!). But one thing has always been clear: I've got a passion for technology and problem-solving. Whether it's debugging code, troubleshooting hardware, or figuring out how to get my cat to stop stealing my chair – I love finding solutions. Beyond tech, I'm a social and curious person who enjoys traveling, gaming, and sports. You might find me shooting hoops, swimming, or tinkering with DIY projects when I'm not buried in code. I thrive in team environments, believe in lifelong learning, and always aim to bring a positive and open-minded attitude wherever I go. So, if you're looking for a motivated, adaptable, and fun team player who's eager to grow, let's connect!"
+    "title": "From Wind Turbines to Information security – My Journey",
+    "description": "Hey there! I’m Sebastian – an IT enthusiast, tech nerd at heart, and someone who thrives on challenges. My journey into information security has been anything but linear. I’ve worked in quality assurance, electronics, and IT support – and even studied nautical science for a while (yes, ships!). But one thing has always been true: I’m passionate about technology and problem-solving. Whether it's about designing security concepts, performing risk assessments, preparing audits, or troubleshooting systems – I enjoy diving deep into structures and finding smart solutions. Currently, I’m undergoing intensive training in information security management (ISO/IEC 27001 Lead Implementer & Auditor, BSI IT-Grundschutz Practitioner, BCM), combining both technical know-how and organizational thinking. Outside of IT, I’m a curious and sociable person who enjoys traveling, gaming, sports, and DIY projects. I thrive in collaborative environments, believe in continuous learning, and bring a positive, solution-focused attitude to everything I do. If you're looking for someone motivated, adaptable, and eager to grow – let’s connect!"
   },
 
   "contact": {
