@@ -25,7 +25,7 @@ function App() {
         style={{
           backgroundImage:
             theme === "dark"
-              ? "url('/assets/background.jpg')"
+              ? "url('/assets/background.png')"
               : "url('/assets/light-background.jpg')",
         }}
       ></div>
